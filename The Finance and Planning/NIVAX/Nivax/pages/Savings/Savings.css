@@ -1,0 +1,359 @@
+﻿
+@media screen and (-ms-view-state: fullscreen-landscape) {
+    p {
+        margin-left: 120px;
+    }
+
+    h1 {
+        color: #46ec69;
+        font-size: xx-large;
+        font-weight: 600;
+        margin-top: 30px;
+        margin-left: 40px;
+    }
+
+    #savingsh2 {
+        font-size: large;
+        margin-left: 130px;
+    }
+
+    #inputsavings {
+        margin-left: 120px;
+        float: left;
+    }
+
+    /*#outputsavings {
+        margin-top: 40px;
+        margin-left: 55px;
+    }*/
+
+    #inputboxsavings {
+        text-align: center;
+        background-color: rgba(202, 202, 202, 0.4);
+        border-color: rgba(202, 202, 202, 0.4);
+        width: 150px;
+    }
+
+    #outputboxsavings {
+        text-align: center;
+        border-color: #fff;
+        font-weight:600;
+        font-size:x-large;
+        width:360px;
+    }
+
+    #buttonsavingsdiv {
+        margin-top: 20px;
+        margin-left: 260px;
+    }
+
+    #buttonsavings {
+        font-size: x-large;
+        color: #fff;
+        background-color: #46ec69;
+        border-color: #46ec69;
+        padding-bottom: 5px;
+        padding-top: 5px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    #lsavings {
+        display: inline-block;
+        width: 170px;
+        margin-left:100px;
+    }
+
+    #lsavings2 {
+        font-weight: 600;
+        font-size: x-large;
+        margin-left:70px;
+
+    }
+    input[type=tel] {
+        font: 15px;
+        width: auto;
+        height: auto;
+        top: auto;
+        right: auto;
+        bottom: auto;
+        left: auto;
+    }
+
+        input[type=text]:disabled, input[type=file]::-ms-value,
+        textarea:disabled, .win-textarea:disabled, select:disabled,
+        input:disabled::-ms-check, input:disabled:active::-ms-check {
+            background-color: #fff;
+            border-color: rgba(0, 0, 0, 0.27);
+            color: #000;
+        }
+}
+
+@media screen and (-ms-view-state: filled) {
+    p {
+        margin-left: 120px;
+    }
+
+    h1 {
+        color: #46ec69;
+        font-size: xx-large;
+        font-weight: 600;
+        margin-top: 30px;
+        margin-left: 40px;
+    }
+
+    #savingsh2 {
+        font-size: large;
+        margin-left: 130px;
+    }
+
+    #inputsavings {
+        margin-left: 120px;
+        float: left;
+    }
+
+    /*#outputsavings {
+        margin-top: 40px;
+        margin-left: 55px;
+    }*/
+
+    #inputboxsavings {
+        text-align: center;
+        background-color: rgba(202, 202, 202, 0.4);
+        border-color: rgba(202, 202, 202, 0.4);
+        width: 150px;
+    }
+
+    #outputboxsavings {
+        text-align: center;
+        border-color: #fff;
+        font-weight:600;
+        font-size:x-large;
+        width:360px;
+    }
+
+    #buttonsavingsdiv {
+        margin-top: 20px;
+        margin-left: 260px;
+    }
+
+    #buttonsavings {
+        font-size: x-large;
+        color: #fff;
+        background-color: #46ec69;
+        border-color: #46ec69;
+        padding-bottom: 5px;
+        padding-top: 5px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    #lsavings {
+        display: inline-block;
+        width: 170px;
+        margin-left:100px;
+    }
+
+    #lsavings2 {
+        font-weight: 600;
+        font-size: x-large;
+        margin-left:70px;
+    }
+
+    input[type=tel] {
+        font: 15px;
+        width: auto;
+        height: auto;
+        top: auto;
+        right: auto;
+        bottom: auto;
+        left: auto;
+    }
+
+        input[type=text]:disabled, input[type=file]::-ms-value,
+        textarea:disabled, .win-textarea:disabled, select:disabled,
+        input:disabled::-ms-check, input:disabled:active::-ms-check {
+            background-color: #fff;
+            border-color: rgba(0, 0, 0, 0.27);
+            color: #000;
+        }
+}
+
+@media screen and (-ms-view-state: snapped) {
+    /*p {
+        margin: .2em 0 .2em 0;
+    }*/
+
+    h1 {
+        color: #46ec69;
+        font-size: x-large;
+        font-weight: 600;
+        margin-top: 10px;
+        margin-left: 50px;
+        text-align: left;
+    }
+
+    #savingsh2 {
+        font-size: large;
+        /*margin-left: 20px;*/
+        margin-top:20px;
+    }
+
+    #inputsavings {
+        margin-left: 25px;
+        float: left;
+    }
+
+    /*#outputsavings {
+        margin-left: 10px;
+        float: left;
+    }*/
+
+    #inputboxsavings {
+        text-align: center;
+        background-color: rgba(202, 202, 202, 0.4);
+        border-color: rgba(202, 202, 202, 0.4);
+        width: 130px;
+    }
+
+    #outputboxsavings {
+        text-align: center;
+        border-color: #fff;
+        font-weight:600;
+        font-size: x-large;
+        width:180px;
+    }
+
+    #buttonsavingsdiv {
+        margin-left: 10px;
+    }
+
+    #buttonsavings {
+        font-size: x-large;
+        color: #fff;
+        background-color: #46ec69;
+        border-color: #46ec69;
+        padding-bottom: 5px;
+        padding-top: 5px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    #lsavings {
+        display: inline-block;
+        width: 120px;
+    }
+
+    #lsavings2 {
+        display: inline-block;
+        width: 100px;
+        font-size: large;
+    }
+
+    input[type=tel] {
+        font: 15px;
+        width: auto;
+        height: auto;
+        top: auto;
+        right: auto;
+        bottom: auto;
+        left: auto;
+    }
+
+    input[type=text]:disabled, input[type=file]::-ms-value,
+    textarea:disabled, .win-textarea:disabled, select:disabled,
+    input:disabled::-ms-check, input:disabled:active::-ms-check {
+        background-color: #fff;
+        border-color: rgba(0, 0, 0, 0.27);
+        color: #000;
+    }
+}
+
+@media screen and (-ms-view-state: fullscreen-portrait) {
+    p {
+        margin-left: 20px;
+    }
+
+    h1 {
+        color: #46ec69;
+        font-size: xx-large;
+        font-weight: 600;
+        margin-top: 30px;
+        margin-left: 40px;
+    }
+
+    #savingsh2 {
+        font-size: large;
+        margin-left: 20px;
+    }
+
+    #inputsavings {
+        margin-left: 120px;
+        float: left;
+    }
+
+    /*#outputsavings {
+        margin-top: 40px;
+        margin-left: 55px;
+    }*/
+
+    #inputboxsavings {
+        text-align: center;
+        background-color: rgba(202, 202, 202, 0.4);
+        border-color: rgba(202, 202, 202, 0.4);
+        width: 150px;
+    }
+
+    #outputboxsavings {
+        text-align: center;
+        border-color: #fff;
+        font-weight:600;
+        font-size:x-large;
+        width:360px;
+    }
+
+    #buttonsavingsdiv {
+        margin-top: 20px;
+        margin-left: 260px;
+    }
+
+    #buttonsavings {
+        font-size: x-large;
+        color: #fff;
+        background-color: #46ec69;
+        border-color: #46ec69;
+        padding-bottom: 5px;
+        padding-top: 5px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    #lsavings {
+        display: inline-block;
+        width: 170px;
+        margin-left:100px;
+    }
+
+    #lsavings2 {
+        font-weight: 600;
+        font-size: x-large;
+        margin-left:70px;
+    }
+    input[type=tel] {
+        font: 15px;
+        width: auto;
+        height: auto;
+        top: auto;
+        right: auto;
+        bottom: auto;
+        left: auto;
+    }
+
+        input[type=text]:disabled, input[type=file]::-ms-value,
+        textarea:disabled, .win-textarea:disabled, select:disabled,
+        input:disabled::-ms-check, input:disabled:active::-ms-check {
+            background-color: #fff;
+            border-color: rgba(0, 0, 0, 0.27);
+            color: #000;
+        }
+}

@@ -1,0 +1,64 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>CreditCard</title>
+
+    <!-- WinJS references -->
+    <link href="//Microsoft.WinJS.1.0/css/ui-light.css" rel="stylesheet" />
+    <script src="//Microsoft.WinJS.1.0/js/base.js"></script>
+    <script src="//Microsoft.WinJS.1.0/js/ui.js"></script>
+
+    <link href="CreditCard.css" rel="stylesheet" />
+    <script src="CreditCard.js"></script>
+    <script src="/js/formatcurrency.js"></script>
+    <script src="/js/formatpercent.js"></script>
+    <script src="/js/undoformatcurrency.js"></script>
+
+</head>
+<body>
+    <div class="CreditCard fragment">
+        <header aria-label="Header content" role="banner">
+            <button class="win-backbutton" type="button" aria-label="Back" disabled type="button"></button>
+            <h1 class="titlearea win-type-ellipsis">
+                <span class="pagetitle" style="color: #46ec69">Credit Card Payoff</span>
+            </h1>
+        </header>
+        <section aria-label="Main content" role="main">
+            <div id="inputsCC">
+            <h2 id="CCh2">Enter information below:</h2>
+                <br />
+            <p>
+                <label for:"txtbalance" id="lCC">Card Balance:</label>
+                <INPUT type="tel" NAME="txtbalance" VALUE="" onchange="this.value=formatCurrency(this.value);" id="inputboxCC">
+            </p>
+            <p>
+                <label for:"txtpayment" id="lCC">Monthly Payment:</label>
+                <INPUT type="tel" name="txtpayment" VALUE="" onchange="this.value=formatCurrency(this.value);" id="inputboxCC">
+            </p>
+            <p>
+                <label for:"txtir" id="lCC">Interest Rate:</label>
+                <INPUT type="tel" NAME="txtir" VALUE="" onchange="this.value=formatPercent(this.value);" id ="inputboxCC">
+            </p>
+                <br />
+            <p> 
+                <label for:"txtNumberOfMonths" id="lCC2">Time until payoff: </label>    
+                <INPUT type="text" NAME="txtNumberOfMonths" disabled="disabled" readonly="readonly" id="outputboxCC">
+            </p>
+            <div id="buttonCCdiv">
+            <p>
+                <button type="button" value="Calculate" name="calc" id="buttonCC" 
+                    onclick="txtbalance.value=undoformatCurrency(txtbalance.value);
+                            txtpayment.value=undoformatCurrency(txtpayment.value);
+                            infinitymessage.value = '';
+                            creditcardloan();
+                            txtbalance.value=formatCurrency(txtbalance.value);    
+                            txtpayment.value=formatCurrency(txtpayment.value);" >Calculate</button>
+
+            </p>
+                <textarea name="infinitymessage" disabled="disabled" readonly="readonly" rows="3" style="border-color:#fff; color:#f00"></textarea>
+            </div>
+        </section>
+    </div>
+</body>
+</html>

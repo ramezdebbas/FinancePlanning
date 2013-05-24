@@ -1,0 +1,148 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>HowMuchAfford</title>
+
+    <!-- WinJS references -->
+    <link href="//Microsoft.WinJS.1.0/css/ui-light.css" rel="stylesheet" />
+    <script src="//Microsoft.WinJS.1.0/js/base.js"></script>
+    <script src="//Microsoft.WinJS.1.0/js/ui.js"></script>
+    
+    <link href="HowMuchAfford.css" rel="stylesheet" />
+    <script src="HowMuchAfford.js"></script>
+    <script src="/js/calcprinc.js"></script>
+    <script src="/js/formatcurrency.js"></script>
+    <script src="/js/formatpercent.js"></script>
+    <script src="/js/undoformatcurrency.js"></script>
+
+</head>
+<body>
+    <div class="HowMuchAfford fragment">
+        <header aria-label="Header content" role="banner">
+            <button class="win-backbutton" type="button" aria-label="Back" disabled></button>
+            <h1 class="titlearea win-type-ellipsis">
+                <span class="pagetitle" style="color: #00d8ff">How much home can I afford?</span>
+            </h1>
+        </header>
+        <section aria-label="Main content" role="main">
+            <div id="leftHMA">
+            <h2 id="HMAh2">Your Finances:</h2>
+
+            <p>
+                <label for:"txtGrossInc" id="lHMA">Annual Gross Income:</label>
+                <INPUT type="tel" STYLE="background-color: rgba(202, 202, 202, 0.4); border-color: rgba(202, 202, 202, 0.4);" NAME="txtGrossInc" VALUE="" onblur="this.value=formatCurrency(this.value);" id="inputbox">
+            </p>
+                <h2 id="HMAh2">Monthly Payments:</h2>
+<!--            <p style="font-weight:500">Monthly Payments</p>-->
+            <p>
+                <label for:"txtPaymentsCC" id="lHMA">Credit Cards:</label>
+                <INPUT type="tel" STYLE="background-color: rgba(202, 202, 202, 0.4); border-color: rgba(202, 202, 202, 0.4);"name="txtPaymentsCC" VALUE="$0.00" onblur="this.value=formatCurrency(this.value);" id="inputbox">
+            </p>
+            <p>
+                <label for:"txtPaymentsAuto" id="lHMA">Auto Loans:</label>
+                <INPUT type="tel" STYLE="background-color: rgba(202, 202, 202, 0.4); border-color: rgba(202, 202, 202, 0.4);"name="txtPaymentsAuto" VALUE="$0.00"onblur="this.value=formatCurrency(this.value);" id="inputbox">
+            </p>
+            <p>
+                <label for:"txtpaymentsSL" id="lHMA">Student Loans:</label>
+                <INPUT type="tel" STYLE="background-color: rgba(202, 202, 202, 0.4); border-color: rgba(202, 202, 202, 0.4);" NAME="txtPaymentsSL" VALUE="$0.00" onblur="this.value=formatCurrency(this.value);" id="inputbox">
+            </p>
+            <p>
+                <label for:"txtPaymentsCS" id="lHMA">Child Support:</label>
+                <INPUT type="tel" STYLE="background-color: rgba(202, 202, 202, 0.4); border-color: rgba(202, 202, 202, 0.4);" NAME="txtPaymentsCS" VALUE="$0.00" onblur="this.value=formatCurrency(this.value);" id ="inputbox">
+            </p>
+            <p>
+                <label for:"txtpaymentsOMO" id="lHMA">Other Obligations:</label>
+                <INPUT type="tel" STYLE="background-color: rgba(202, 202, 202, 0.4); border-color: rgba(202, 202, 202, 0.4);" NAME="txtPaymentsOMO" VALUE="$0.00" onblur="this.value=formatCurrency(this.value);" id="inputbox">
+            </p>
+            </div>
+
+            <div id="rightHMA">
+                <h2 id="HMAh2">New Mortgage Loan Assumptions:</h2>
+            <p>
+                <label for:"txtIR" id="lHMA">Annual Interest Rate:</label>
+                <INPUT type="tel" STYLE="background-color: rgba(202, 202, 202, 0.4); border-color: rgba(202, 202, 202, 0.4);" NAME="txtIR" VALUE="" onchange="this.value=formatPercent(this.value);" id="inputbox">
+            </p>
+            <p>
+                <label for:"txtTerm" id="lHMA">Term (years):</label>
+                <INPUT type="tel" STYLE="background-color: rgba(202, 202, 202, 0.4); border-color: rgba(202, 202, 202, 0.4);" NAME="txtTerm" VALUE="" id="inputbox">
+            </p>
+            <p>
+                <label for:"txtDP" id="lHMA">Funds Available for Down Payment:</label>
+                <INPUT type="tel" STYLE="background-color: rgba(202, 202, 202, 0.4); border-color: rgba(202, 202, 202, 0.4);" NAME="txtDP" VALUE="" onchange="this.value=formatCurrency(this.value);" id="inputbox">
+            </p>
+            <p>
+                <label for:"txtPT" id="lHMA">Estimated Annual Property Taxes:</label>
+                <INPUT type="tel" STYLE="background-color: rgba(202, 202, 202, 0.4); border-color: rgba(202, 202, 202, 0.4);" NAME="txtPT" VALUE="" onchange="this.value=formatCurrency(this.value);" id="inputbox">
+            </p>
+            <p>
+                <label for:"txtHI" id="lHMA">Estimated Annual Homeowner's Insurance:</label>
+                <INPUT type="tel" STYLE="background-color: rgba(202, 202, 202, 0.4); border-color: rgba(202, 202, 202, 0.4);" NAME="txtHI" VALUE="" onchange="this.value=formatCurrency(this.value);" id="inputbox">
+            </p>
+            <p>
+                <label for:"txtFER" id="lHMA">Front-end Ratio:</label>
+                <INPUT type="tel" STYLE="background-color: rgba(202, 202, 202, 0.4); border-color: rgba(202, 202, 202, 0.4);" NAME="txtFER" VALUE="28%" onchange="this.value=formatPercent(this.value);" id="inputbox">
+            </p>
+            <p>
+                <label for:"txtBER" id="lHMA">Back-end Ratio:</label>
+                <INPUT type="tel" STYLE="background-color: rgba(202, 202, 202, 0.4); border-color: rgba(202, 202, 202, 0.4);" NAME="txtBER" VALUE="36%" onchange="this.value=formatPercent(this.value);" id="inputbox">
+            </p>
+            <p> 
+                <label for:"txtHouse" id="lHMA2">Home Cost  =</label>    
+                <INPUT type="text" NAME="txtHouse" disabled="disabled" readonly="readonly" SIZE=9  onblur="this.value=formatCurrency(this.value);" onchange="this.value=formatCurrency(this.value);" id="tpoutputbox">
+            </p>
+            </div>
+            <div id="buttonHMAdiv">
+            <p>
+                <button type="button" value="Calculate" name="calc" id="buttonHMA" 
+                    onclick="
+                            txtGrossInc.value=undoformatCurrency(txtGrossInc.value);
+                            txtPaymentsCC.value=undoformatCurrency(txtPaymentsCC.value);
+                            txtPaymentsAuto.value=undoformatCurrency(txtPaymentsAuto.value);
+                            txtPaymentsSL.value=undoformatCurrency(txtPaymentsSL.value);
+                            txtPaymentsCS.value=undoformatCurrency(txtPaymentsCS.value);
+                            txtPaymentsOMO.value=undoformatCurrency(txtPaymentsOMO.value);
+                            txtDP.value=undoformatCurrency(txtDP.value);
+                            txtPT.value=undoformatCurrency(txtPT.value);
+                            txtHI.value=undoformatCurrency(txtHI.value);
+                            howmuchloan();
+                            txtHouse.value=formatCurrency(txtHouse.value);
+                            txtGrossInc.value=formatCurrency(txtGrossInc.value);
+                            txtPaymentsCC.value=formatCurrency(txtPaymentsCC.value);
+                            txtPaymentsAuto.value=formatCurrency(txtPaymentsAuto.value);
+                            txtPaymentsSL.value=formatCurrency(txtPaymentsSL.value);
+                            txtPaymentsCS.value=formatCurrency(txtPaymentsCS.value);
+                            txtPaymentsOMO.value=formatCurrency(txtPaymentsOMO.value);
+                            txtDP.value=formatCurrency(txtDP.value);
+                            txtPT.value=formatCurrency(txtPT.value);
+                            txtHI.value=formatCurrency(txtHI.value);">Calculate</button>
+
+            </p>
+            </div>
+<!--                <div>
+            <p>
+                <label for:"txtFERCalc">Front-end Ratio:</label>
+                <INPUT type="text" STYLE="background-color: rgba(202, 202, 202, 0.4); border-color: rgba(202, 202, 202, 0.4);" NAME="txtFERCalc" VALUE="" MAXLENGTH="12" SIZE=12 id="Text13">
+            </p>
+            <p>
+                <label for:"txtBERCalc">Back-end Ratio:</label>
+                <INPUT type="text" STYLE="background-color: rgba(202, 202, 202, 0.4); border-color: rgba(202, 202, 202, 0.4);" NAME="txtBERCalc" VALUE="" MAXLENGTH="12" SIZE=12 id="Text14">
+            </p>
+            <p>
+                <label for:"txtC">C:</label>
+                <INPUT type="text" STYLE="background-color: rgba(202, 202, 202, 0.4); border-color: rgba(202, 202, 202, 0.4);" NAME="txtC" VALUE="" MAXLENGTH="12" SIZE=12 id="Text15">
+            </p>
+            <p>
+                <label for:"txtj">j:</label>
+                <INPUT type="text" STYLE="background-color: rgba(202, 202, 202, 0.4); border-color: rgba(202, 202, 202, 0.4);" NAME="txtj" VALUE="" MAXLENGTH="12" SIZE=12 id="Text16">
+            </p>
+            <p>
+                <label for:"txtN">N:</label>
+                <INPUT type="text" STYLE="background-color: rgba(202, 202, 202, 0.4); border-color: rgba(202, 202, 202, 0.4);" NAME="txtN" VALUE="" MAXLENGTH="12" SIZE=12 id="Text17">
+            </p>
+
+                </div>
+-->                    </section>
+    </div>
+</body>
+</html>

@@ -1,0 +1,289 @@
+﻿
+
+@media screen and (-ms-view-state: fullscreen-landscape) {
+  
+    .homepage section[role=main] {
+        margin-left: 75px;
+    }
+
+    .NewLine {
+        clear: both;
+        display: block;
+    }
+    .logo {
+        width: 310px;
+        height: 150px;
+    }
+
+    #Note {
+        margin-left: 100px;
+        width: 330px;
+        font-size: 14px;
+        padding-left:0px;
+        padding-top:10px;
+        border-color:#fff;
+        text-align:justify;
+        background-color:#fff;
+        font-family:  Calibri;
+        color:#000;
+    }
+
+    #SimpleIcons {
+        width: 150px;
+        height: 150px;
+        float: left;
+        margin-right: 20px;
+        margin-bottom: 50px;
+    }
+    #HealthIcon1 {
+        width: 150px;
+        height: 150px;
+        float: left;
+        margin-left: 100px;
+        margin-right: 20px;
+        margin-bottom: 50px;
+    }    
+    #HealthIcon2 {
+        width: 150px;
+        height: 150px;
+        float: left;
+        margin-right: 20px;
+        margin-bottom: 50px;
+    }    
+    #REIcons {
+        width: 150px;
+        height: 150px;
+        float: left;
+        margin-right: 20px;
+        margin-bottom: 50px;
+    }
+    #FunIcons {
+        width: 150px;
+        height: 150px;
+        float: left;
+        margin-left:270px;
+        margin-right: 20px;
+        margin-bottom: 50px;
+    }
+    #FinanceIcons {
+        width: 150px;
+        height: 150px;
+        float: left;
+        margin-right: 20px;
+        margin-bottom: 50px;
+    }
+}
+
+@media screen and (-ms-view-state: filled) {
+    .homepage section[role=main] {
+        margin-left: 45px;
+    }
+    .NewLine {
+        clear: both;
+        display: block;
+    }
+    .logo {
+        width: 310px;
+        height: 150px;
+        margin-left:40px;
+    }
+
+    #Note {
+        margin-left: 100px;
+        width: 330px;
+        font-size: 14px;
+        padding-left:0px;
+        padding-top:10px;
+        border-color:#fff;
+        text-align:justify;
+        background-color:#fff;
+        font-family:  Calibri;
+        color:#000;
+    }
+
+    #SimpleIcons {
+        width: 150px;
+        height: 150px;
+        float: left;
+        margin-right: 20px;
+        margin-bottom: 50px;
+    }
+    #HealthIcon1 {
+        width: 150px;
+        height: 150px;
+        float: left;
+        margin-left: 100px;
+        margin-right: 20px;
+        margin-bottom: 50px;
+    }    
+    #HealthIcon2 {
+        width: 150px;
+        height: 150px;
+        float: left;
+        margin-right: 20px;
+        margin-bottom: 50px;
+    }    
+    #REIcons {
+        width: 150px;
+        height: 150px;
+        float: left;
+        margin-right: 20px;
+        margin-bottom: 50px;
+    }
+    #FunIcons {
+        width: 150px;
+        height: 150px;
+        float: left;
+        margin-left:270px;
+        margin-right: 20px;
+        margin-bottom: 50px;
+    }
+    #FinanceIcons {
+        width: 150px;
+        height: 150px;
+        float: left;
+        margin-right: 20px;
+        margin-bottom: 50px;
+    }
+}
+
+
+@media screen and (-ms-view-state: snapped) {
+    .homepage section[role=main] {
+        margin-left: 20px;
+    }
+    .NewLineSnap {
+        clear: both;
+        display: block;
+    }
+    .logo {
+        width: 310px;
+        height: 150px;
+        margin-left:40px;
+    }
+    #Note {
+        width: 280px;
+        font-size: 13px;
+        padding-left:0px;
+        padding-top:10px;
+        border-color:#fff;
+        text-align:justify;
+        background-color:#fff;
+        font-family:  Calibri;
+        color:#000;
+    }
+
+    #SimpleIcons {
+        width: 85px;
+        height: 85px;
+        float: left;
+        margin-right:10px;
+        margin-bottom: 10px;
+    }
+    #HealthIcon1 {
+        width: 85px;
+        height: 85px;
+        float: left;
+        margin-right:10px;
+        margin-bottom: 10px;
+    }
+    #HealthIcon2 {
+        width: 85px;
+        height: 85px;
+        float: left;
+        margin-bottom: 10px;
+        margin-right:10px;
+    }
+    #REIcons {
+        width: 85px;
+        height: 85px;
+        float: left;
+        margin-bottom: 10px;
+        margin-right:10px;
+    }
+    #FunIcons {
+        width: 85px;
+        height: 85px;
+        float: left;
+        margin-bottom: 10px;
+        margin-right:10px;
+    }
+    #FinanceIcons {
+        width: 85px;
+        height: 85px;
+        float: left;
+        margin-bottom: 10px;
+        margin-right:10px;
+    }
+}
+
+@media screen and (-ms-view-state: fullscreen-portrait) {
+    .homepage section[role=main] {
+        margin-left: 100px;
+    }
+    .NewLineSnap {
+        clear: both;
+        display: block;
+    }
+    .logo {
+        width: 310px;
+        height: 150px;
+        margin-left:40px;
+    }
+
+    #Note {
+        margin-left: 100px;
+        width: 330px;
+        font-size: 14px;
+        padding-left:0px;
+        padding-top:10px;
+        border-color:#fff;
+        text-align:justify;
+        background-color:#fff;
+        font-family:  Calibri;
+        color:#000;
+    }
+
+    #SimpleIcons {
+        width: 150px;
+        height: 150px;
+        float: left;
+        margin-right: 20px;
+        margin-bottom: 50px;
+    }
+    #HealthIcon1 {
+        width: 150px;
+        height: 150px;
+        float: left;
+        margin-right: 20px;
+        margin-bottom: 50px;
+    }    
+    #HealthIcon2 {
+        width: 150px;
+        height: 150px;
+        float: left;
+        margin-right: 20px;
+        margin-bottom: 50px;
+    }    
+    #REIcons {
+        width: 150px;
+        height: 150px;
+        float: left;
+        margin-right: 20px;
+        margin-bottom: 50px;
+    }
+    #FunIcons {
+        width: 150px;
+        height: 150px;
+        float: left;
+        margin-right: 20px;
+        margin-bottom: 50px;
+    }
+    #FinanceIcons {
+        width: 150px;
+        height: 150px;
+        float: left;
+        margin-right: 20px;
+        margin-bottom: 50px;
+    }
+}

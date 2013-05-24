@@ -1,0 +1,364 @@
+﻿/*.HowMuchAfford p {
+    margin-left: 120px;
+}*/
+
+@media screen and (-ms-view-state: fullscreen-landscape) {
+    p {
+        /*margin: .5em 0 .5em 0;*/
+        /*margin-left:120px;*/
+    }
+
+    h1 {
+        /*color: #00d8ff;*/
+        font-size: xx-large;
+        font-weight: 600;
+        margin-top: 30px;
+        margin-left: 40px;
+    }
+
+    #HMAh2 {
+        font-size: large;
+        font-weight: 600;
+    }
+
+    #leftHMA {
+        /*margin-left: 70px;*/
+        margin-left: Calc(50% - 400px);
+        float: left;
+    }
+
+    #rightHMA {
+        /*text-align:right;*/
+        /*margin-top: 40px;*/
+        /*margin-right: 645px;*/
+        /*margin-left: 450px;*/
+        margin-left: Calc(50% - 40px);
+    }
+    
+    #inputbox {
+        text-align: center;
+        width:120px;
+    }
+
+    #outputbox {
+        text-align: right;
+        font-weight:600;
+        border-color: #fff;
+        width: 130px;
+    }
+    #tpoutputbox {
+        font-size: x-large;
+        font-weight: 600;
+        text-align: center;
+        border-color: #fff;
+        width: 180px;
+    }
+    #buttonHMAdiv {
+        margin-top: 20px;
+        /*margin-left: 585px;*/
+        margin-left: Calc(50% - 75px);
+    }
+
+    #buttonHMA {
+        font-size: x-large;
+        color: #fff;
+        background-color: #00d8ff;
+        border-color: #00d8ff;
+        padding-bottom: 5px;
+        padding-top: 5px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    #lHMA {
+        display: inline-block;
+        width: 150px;
+    }
+
+    #lHMA2 {
+        display: inline-block;
+        width: 120px;
+        font-size:large;
+        font-weight:600;
+    }
+
+    input[type=text] {
+        font: 15px;
+        width: auto;
+        height: auto;
+        top: auto;
+        right: auto;
+        bottom: auto;
+        left: auto;
+    }
+
+        input[type=text]:disabled, input[type=file]::-ms-value,
+        textarea:disabled, .win-textarea:disabled, select:disabled,
+        input:disabled::-ms-check, input:disabled:active::-ms-check {
+            background-color: #fff;
+            border-color: rgba(0, 0, 0, 0.27);
+            color: #000;
+        }
+}
+
+@media screen and (-ms-view-state: filled) {
+    p {
+        /*margin: .5em 0 .5em 0;*/
+        /*margin-left:120px;*/
+    }
+
+    h1 {
+        /*color: #00d8ff;*/
+        font-size: xx-large;
+        font-weight: 600;
+        margin-top: 30px;
+        margin-left: 40px;
+    }
+
+    #HMAh2 {
+        font-size: large;
+        font-weight: 600;
+    }
+
+    #leftHMA {
+        /*margin-left: 70px;*/
+        margin-left: Calc(50% - 400px);
+        float: left;
+    }
+
+    #rightHMA {
+        /*text-align:right;*/
+        /*margin-top: 40px;*/
+        /*margin-right: 645px;*/
+        /*margin-left: 450px;*/
+        margin-left: Calc(50% - 40px);
+    }
+    
+    #inputbox {
+        text-align: center;
+        width:120px;
+    }
+
+    #outputbox {
+        text-align: right;
+        font-weight:600;
+        border-color: #fff;
+        width: 130px;
+    }
+    #tpoutputbox {
+        font-size: x-large;
+        font-weight: 600;
+        text-align: center;
+        border-color: #fff;
+        width: 180px;
+    }
+    #buttonHMAdiv {
+        margin-top: 20px;
+        /*margin-left: 585px;*/
+        margin-left: Calc(50% - 75px);
+    }
+
+    #buttonHMA {
+        font-size: x-large;
+        color: #fff;
+        background-color: #00d8ff;
+        border-color: #00d8ff;
+        padding-bottom: 5px;
+        padding-top: 5px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    #lHMA {
+        display: inline-block;
+        width: 150px;
+    }
+
+    #lHMA2 {
+        display: inline-block;
+        width: 120px;
+        font-size:large;
+        font-weight:600;
+    }
+
+    input[type=text] {
+        font: 15px;
+        width: auto;
+        height: auto;
+        top: auto;
+        right: auto;
+        bottom: auto;
+        left: auto;
+    }
+
+        input[type=text]:disabled, input[type=file]::-ms-value,
+        textarea:disabled, .win-textarea:disabled, select:disabled,
+        input:disabled::-ms-check, input:disabled:active::-ms-check {
+            background-color: #fff;
+            border-color: rgba(0, 0, 0, 0.27);
+            color: #000;
+        }
+}
+
+@media screen and (-ms-view-state: snapped) {
+    p {
+        margin: .1em 0 .1em 0;
+    }
+
+    /*h1 {
+        color: #00d8ff;
+        font-size: x-large;
+        font-weight: 600;
+        margin-top: 10px;
+        margin-left: 10px;
+    }*/
+        
+    #HMAh2 {
+        font-size: large;
+        font-weight: 600;
+    }
+
+    #leftHMA {
+        margin-left: 20px;
+        float: left;
+    }
+
+    #rightHMA {
+        margin-left: 20px;
+        float: left;
+    }
+    
+
+    #inputbox {
+        padding: 0px;
+        border-width: 0px;
+        text-align: center;
+        font-size: small;
+        width: 120px;
+    }
+
+    #tpoutputbox {
+        font-size: large;
+        font-weight: 700;
+        text-align: center;
+        border-color: #fff;
+        width: 190px;
+    }
+    #buttonHMAdiv {
+        margin-left: 10px;
+    }
+
+    #buttonHMA {
+        font-size: large;
+        color: #fff;
+        background-color: #00d8ff;
+        border-color: #00d8ff; 
+        /*padding-bottom: 5px;
+        padding-top: 5px;*/
+        padding-left: 20px;
+        padding-right: 20px; 
+        /*margin-left:150px;*/
+        margin-left: 10px;
+    }
+
+    #lHMA {
+        display: inline-block;
+        width: 150px;
+        /*font-size: 11px;*/
+        font-size:small;
+    }
+
+    #lHMA2 {
+        display: inline-block;
+        width: 101px;
+    }
+
+    /*input[type=text] {
+        padding: 0px;
+        font: 15px;
+        width: inherit;
+        height: inherit;
+        top: inherit;
+        right: inherit;
+        bottom: inherit;
+        left: inherit;
+    }*/
+
+    input[type=text]:disabled, input[type=file]::-ms-value, textarea:disabled, .win-textarea:disabled, select:disabled, input:disabled::-ms-check, input:disabled:active::-ms-check {
+        background-color: #fff;
+        border-color: rgba(0, 0, 0, 0.27);
+        color: #000;
+    }
+}
+
+@media screen and (-ms-view-state: fullscreen-portrait) {
+    h1 {
+        font-size: xx-large;
+        font-weight: 600;
+        margin-top: 30px;
+        margin-left: 40px;
+    }
+
+    #HMAh2 {
+        font-size: large;
+        font-weight: 600;
+    }
+
+    #inputbox {
+        text-align: center;
+        width:120px;
+    }
+    #leftHMA {
+        margin-left: Calc(50% - 310px);
+        float: left;
+    }
+
+    #rightHMA {
+        margin-top: 40px;
+        margin-left: Calc(50% + 10px);
+    }
+    
+    #tpoutputbox {
+        font-size: x-large;
+        font-weight: 600;
+        text-align: center;
+        border-color: #fff;
+        width: 180px;
+    }
+    #buttonHMAdiv {
+        margin-top: 20px;
+        margin-left: Calc(50% - 20px);
+    }
+
+    #buttonHMA {
+        font-size: x-large;
+        color: #fff;
+        background-color: #00d8ff;
+        border-color: #00d8ff;
+        padding-bottom: 5px;
+        padding-top: 5px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    #lHMA {
+        display: inline-block;
+        width: 125px;
+    }
+
+    #lHMA2 {
+        display: inline-block;
+        width: 120px;
+        font-size:large;
+        font-weight:600;
+    }
+        
+    input[type=text]:disabled, input[type=file]::-ms-value,
+        textarea:disabled, .win-textarea:disabled, select:disabled,
+        input:disabled::-ms-check, input:disabled:active::-ms-check {
+            background-color: #fff;
+            border-color: rgba(0, 0, 0, 0.27);
+            color: #000;
+        }
+}
+

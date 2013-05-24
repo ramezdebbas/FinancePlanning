@@ -1,0 +1,530 @@
+﻿@media screen and (-ms-view-state: fullscreen-landscape) {
+
+    h1 {
+        font-size: xx-large;
+        font-weight: 600;
+        margin-top: 30px;
+        margin-left: 40px;
+    }
+
+    #Mortgageh2 {
+        font-size: large;
+        font-weight: 500;
+    }
+
+    #inputsmc {
+        margin-left: Calc(50% - 400px);
+        float: left;
+    }
+
+    #outputsmc {
+        margin-top: 40px;
+        margin-left: Calc(50% - 40px);
+    }
+    
+    #principal {
+        text-align: center;
+    }
+    
+    #tpaymentmc {
+        margin-left: Calc(50% - 75px);
+    }
+
+    #inputbox {
+        text-align: center;
+        background-color: rgba(202, 202, 202, 0.4); 
+        border-color: rgba(202, 202, 202, 0.4);
+        width:130px;
+    }
+
+    #mortgageinputboxsmall{
+        text-align: center;
+        background-color: rgba(202, 202, 202, 0.4); 
+        border-color: rgba(202, 202, 202, 0.4);
+        width:75px;
+    }
+
+    #outputbox {
+        text-align: right;
+        font-weight:600;
+        border-color: #fff;
+        width: 130px;
+    }
+
+    #mtpoutputbox {
+        font-size: x-large;
+        font-weight: 600;
+        text-align: center;
+        border-color: #fff;
+        width: 180px;
+    }
+
+    #buttonMCdiv {
+        margin-top: 20px;
+        margin-left: Calc(50% - 75px);
+    }
+
+    #buttonMC {
+        font-size: x-large;
+        color: #fff;
+        background-color: #00d8ff;
+        border-color: #00d8ff;
+        padding-bottom: 5px;
+        padding-top: 5px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    #lmortgage {
+        display: inline-block;
+        width: 125px;
+    }
+
+    #lmortgage2 {
+        display: inline-block;
+        width: 180px;
+    }
+
+    #lmortgage3 {
+        text-align: right;
+        display: inline-block;
+        width: 150px;
+    }
+
+    #lmortgage4 {
+        text-align: right;
+        font-size: x-large;
+        font-weight: 600;
+        display: inline-block;
+        width: 190px;
+    }
+    
+    hr {
+        margin-left: 70px;
+    }
+    
+    #MICountBox {
+        border-width: 0px;
+        padding: 0px;
+        letter-spacing: normal;
+        width: 270px;
+        color: #999999;
+    }
+    
+    input[type=text] {
+        font: 15px;
+        width: auto;
+        height: auto;
+        top: auto;
+        right: auto;
+        bottom: auto;
+        left: auto;
+    }
+
+        input[type=text]:disabled, input[type=file]::-ms-value,
+        textarea:disabled, .win-textarea:disabled, select:disabled,
+        input:disabled::-ms-check, input:disabled:active::-ms-check {
+            background-color: #fff;
+            border-color: rgba(0, 0, 0, 0.27);
+            color: #000;
+        }
+}
+
+@media screen and (-ms-view-state: filled) {
+
+    h1 {
+        font-size: xx-large;
+        font-weight: 600;
+        margin-top: 30px;
+        margin-left: 40px;
+    }
+
+    #Mortgageh2 {
+        font-size: large;
+        font-weight: 500;
+    }
+
+    #inputsmc {
+        margin-left: Calc(50% - 400px);
+        float: left;
+    }
+
+    #outputsmc {
+        margin-top: 40px;
+        margin-left: Calc(50% - 40px);
+    }
+    
+    #principal {
+        text-align: center;
+    }
+    
+    #tpaymentmc {
+        margin-left: Calc(50% - 75px);
+    }
+
+    #inputbox {
+        text-align: center;
+        background-color: rgba(202, 202, 202, 0.4); 
+        border-color: rgba(202, 202, 202, 0.4);
+        width:130px;
+    }
+
+    #mortgageinputboxsmall{
+        text-align: center;
+        background-color: rgba(202, 202, 202, 0.4); 
+        border-color: rgba(202, 202, 202, 0.4);
+        width:75px;
+    }
+
+    #outputbox {
+        text-align: right;
+        font-weight:600;
+        border-color: #fff;
+        width: 130px;
+    }
+
+    #mtpoutputbox {
+        font-size: x-large;
+        font-weight: 600;
+        text-align: center;
+        border-color: #fff;
+        width: 180px;
+    }
+
+    #buttonMCdiv {
+        margin-top: 20px;
+        margin-left: Calc(50% - 75px);
+    }
+
+    #buttonMC {
+        font-size: x-large;
+        color: #fff;
+        background-color: #00d8ff;
+        border-color: #00d8ff;
+        padding-bottom: 5px;
+        padding-top: 5px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    #lmortgage {
+        display: inline-block;
+        width: 125px;
+    }
+
+    #lmortgage2 {
+        display: inline-block;
+        width: 180px;
+    }
+
+    #lmortgage3 {
+        text-align: right;
+        display: inline-block;
+        width: 150px;
+    }
+
+    #lmortgage4 {
+        text-align: right;
+        font-size: x-large;
+        font-weight: 600;
+        display: inline-block;
+        width: 190px;
+    }
+    
+    hr {
+        margin-left: 70px;
+    }
+    
+    #MICountBox {
+        border-width: 0px;
+        padding: 0px;
+        letter-spacing: normal;
+        width: 270px;
+        color: #999999;
+    }
+    
+    input[type=text] {
+        font: 15px;
+        width: auto;
+        height: auto;
+        top: auto;
+        right: auto;
+        bottom: auto;
+        left: auto;
+    }
+
+        input[type=text]:disabled, input[type=file]::-ms-value,
+        textarea:disabled, .win-textarea:disabled, select:disabled,
+        input:disabled::-ms-check, input:disabled:active::-ms-check {
+            background-color: #fff;
+            border-color: rgba(0, 0, 0, 0.27);
+            color: #000;
+        }
+}
+
+@media screen and (-ms-view-state: snapped) {
+    p {
+        margin: .2em 0 .2em 0;
+    }
+
+    h1 {
+        color: #00d8ff;
+        font-size: x-large;
+        font-weight: 600;
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+        
+    #Mortgageh2 {
+        font-size: large;
+        font-weight: 500;
+    }
+
+    #inputsmc {
+        margin-left: 20px;
+        float: left;
+    }
+
+    #outputsmc {
+        margin-left: 20px;
+        float: left;
+    }
+    
+    #principal {
+        text-align: center;
+    }
+    
+    #tpaymentmc {
+        margin-left: 10px;
+    }
+
+    #inputbox {
+        text-align: center;
+        background-color: rgba(202, 202, 202, 0.4); 
+        border-color: rgba(202, 202, 202, 0.4);
+        width:130px;
+    }
+
+    #mortgageinputboxsmall{
+        text-align: center;
+        background-color: rgba(202, 202, 202, 0.4); 
+        border-color: rgba(202, 202, 202, 0.4);
+        width:75px;
+    }
+
+    #outputbox {
+        text-align: right;
+        font-weight:600;
+        border-color: #fff;
+        width: 110px;
+    }
+
+    #mtpoutputbox {
+        font-size: large;
+        font-weight: 700;
+        text-align: right;
+        border-color: #fff;
+        width: 115px;
+    }
+
+    #buttonMCdiv {
+        margin-left: 10px;
+    }
+
+    #buttonMC {
+        font-size: large;
+        color: #fff;
+        background-color: #00d8ff;
+        border-color: #00d8ff; 
+        padding-left: 20px;
+        padding-right: 20px;
+        margin-left: 10px;
+    }
+
+    #lmortgage {
+        display: inline-block;
+        width: 125px;
+    }
+
+    #lmortgage2 {
+        display: inline-block;
+        width: 180px;
+    }
+
+    #lmortgage3 {
+        display: inline-block;
+        width: 150px;
+    }
+
+    hr {
+        margin-left: 10px;
+    }
+
+    #MICountBox {
+        margin: 0px;
+        border-width: 0px;
+        padding: 0px;
+        letter-spacing: normal;
+        width: 270px;
+        color: #999999;
+        font-size: 14px;
+    }
+    
+    #lmortgage4 {
+        margin-left: 10px;
+        font-size: large;
+        font-weight: 600;
+        display: inline-block;
+        width: 145px;
+    }
+
+    input[type=text] {
+        font: 15px;
+        width: auto;
+        height: auto;
+        top: auto;
+        right: auto;
+        bottom: auto;
+        left: auto;
+    }
+
+    input[type=text]:disabled, input[type=file]::-ms-value,
+    textarea:disabled, .win-textarea:disabled, select:disabled,
+    input:disabled::-ms-check, input:disabled:active::-ms-check {
+        background-color: #fff;
+        border-color: rgba(0, 0, 0, 0.27);
+        color: #000;
+    }
+}
+
+@media screen and (-ms-view-state: fullscreen-portrait) {
+    h1 {
+        font-size: xx-large;
+        font-weight: 600;
+        margin-top: 30px;
+        margin-left: 40px;
+    }
+
+    #Mortgageh2 {
+        font-size: large;
+        font-weight: 500;
+    }
+
+    #inputsmc {
+        margin-left: Calc(50% - 310px);
+        float: left;
+    }
+
+    #outputsmc {
+        margin-top: 40px;
+        margin-left: Calc(50% + 10px);
+    }
+    
+    #principal {
+        text-align: center;
+    }
+    
+    #tpaymentmc {
+        margin-left: Calc(50% - 20px);
+    }
+
+    #inputbox {
+        text-align: center;
+        background-color: rgba(202, 202, 202, 0.4); 
+        border-color: rgba(202, 202, 202, 0.4);
+        width:130px;
+    }
+
+    #mortgageinputboxsmall{
+        text-align: center;
+        background-color: rgba(202, 202, 202, 0.4); 
+        border-color: rgba(202, 202, 202, 0.4);
+        width:75px;
+    }
+
+    #outputbox {
+        text-align: right;
+        font-weight:600;
+        border-color: #fff;
+        width: 130px;
+    }
+
+    #mtpoutputbox {
+        font-size: x-large;
+        font-weight: 600;
+        text-align: center;
+        border-color: #fff;
+        width: 180px;
+    }
+
+    #buttonMCdiv {
+        margin-top: 20px;
+        margin-left: Calc(50% - 20px);
+    }
+
+    #buttonMC {
+        font-size: x-large;
+        color: #fff;
+        background-color: #00d8ff;
+        border-color: #00d8ff;
+        padding-bottom: 5px;
+        padding-top: 5px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    #lmortgage {
+        display: inline-block;
+        width: 125px;
+    }
+
+    #lmortgage2 {
+        display: inline-block;
+        width: 180px;
+    }
+
+    #lmortgage3 {
+        text-align: right;
+        display: inline-block;
+        width: 150px;
+    }
+
+    #lmortgage4 {
+        text-align: right;
+        font-size: x-large;
+        font-weight: 600;
+        display: inline-block;
+        width: 190px;
+    }
+    
+    hr {
+        margin-left: 70px;
+    }
+    
+    #MICountBox {
+        border-width: 0px;
+        padding: 0px;
+        letter-spacing: normal;
+        width: 270px;
+        color: #999999;
+    }
+    
+    input[type=text] {
+        font: 15px;
+        width: auto;
+        height: auto;
+        top: auto;
+        right: auto;
+        bottom: auto;
+        left: auto;
+    }
+
+        input[type=text]:disabled, input[type=file]::-ms-value,
+        textarea:disabled, .win-textarea:disabled, select:disabled,
+        input:disabled::-ms-check, input:disabled:active::-ms-check {
+            background-color: #fff;
+            border-color: rgba(0, 0, 0, 0.27);
+            color: #000;
+        }
+}
+

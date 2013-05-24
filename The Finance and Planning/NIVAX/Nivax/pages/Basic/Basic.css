@@ -1,0 +1,324 @@
+﻿.Basic p {
+    margin-left: 120px;
+}
+@media screen and (-ms-view-state: fullscreen-landscape) {
+
+    h1 {
+        color: #f00;
+        font-size: xx-large;
+        font-weight: 600;
+        margin-top: 30px;
+        margin-left: 40px;
+    }
+    .BasicTable {
+        margin: auto;
+    }
+    #display {
+        width: 340px;
+        font-size:xx-large;
+        font-weight:700;
+    }
+    
+    #buttonC {
+        border-color: #FB482F;
+        background-color: #FB482F;
+        font-size: xx-large;
+        font-weight:bold;
+        min-width: 40px;
+        width: 80px;
+        height:80px;
+    }
+
+    #button {
+        border-color: #CCCCCC;
+        background-color: #CCCCCC;
+        font-size: xx-large;
+        font-weight:bold;
+        min-width: 40px;
+        width: 80px;
+        height:80px;
+    }
+
+    #button2 {
+        border-color: #999999;
+        background-color: #999999;
+        height: 164px;
+        min-width: 40px;
+        width: 80px;
+        font-size:xx-large;
+        font-weight:bold;
+        }
+
+    #button3 {
+        border-color: #CCCCCC;
+        background-color: #CCCCCC;
+        height: 80px;
+        min-width: 40px;
+        width:168px;
+        font-size:xx-large;
+        font-weight:bold;
+    }
+
+    #button4 {
+        border-color: #999999;
+        background-color: #999999;
+        font-size: xx-large;
+        font-weight: bold;
+        min-width: 40px;
+        width: 80px;
+        height: 80px;
+    }
+
+    #button5 {
+        border-color: #333333;
+        background-color: #333333;
+        height: 164px;
+        min-width: 40px;
+        width: 80px;
+        font-size: xx-large;
+        font-weight: bold;
+        color:#fff;
+    }
+
+}
+
+@media screen and (-ms-view-state: filled) {
+    h1 {
+        color: #f00;
+        font-size: xx-large;
+        font-weight: 600;
+        margin-top: 30px;
+        margin-left: 40px;
+    }
+    .BasicTable {
+        margin: auto;
+    }
+    #display {
+        width: 340px;
+        font-size:xx-large;
+        font-weight:700;
+    }
+    
+    #buttonC {
+        border-color: #FB482F;
+        background-color: #FB482F;
+        font-size: xx-large;
+        font-weight:bold;
+        min-width: 40px;
+        width: 80px;
+        height:80px;
+    }
+
+    #button {
+        border-color: #CCCCCC;
+        background-color: #CCCCCC;
+        font-size: xx-large;
+        font-weight:bold;
+        min-width: 40px;
+        width: 80px;
+        height:80px;
+    }
+
+    #button2 {
+        border-color: #999999;
+        background-color: #999999;
+        height: 164px;
+        min-width: 40px;
+        width: 80px;
+        font-size:xx-large;
+        font-weight:bold;
+        }
+
+    #button3 {
+        border-color: #CCCCCC;
+        background-color: #CCCCCC;
+        height: 80px;
+        min-width: 40px;
+        width:168px;
+        font-size:xx-large;
+        font-weight:bold;
+    }
+
+    #button4 {
+        border-color: #999999;
+        background-color: #999999;
+        font-size: xx-large;
+        font-weight: bold;
+        min-width: 40px;
+        width: 80px;
+        height: 80px;
+    }
+
+    #button5 {
+        border-color: #333333;
+        background-color: #333333;
+        height: 164px;
+        min-width: 40px;
+        width: 80px;
+        font-size: xx-large;
+        font-weight: bold;
+        color:#fff;
+    }
+
+}
+
+@media screen and (-ms-view-state: snapped) {
+
+    h1 {
+        color: #00d8ff;
+        font-size: x-large;
+        font-weight: 600;
+        margin-top: 10px;
+        margin-left: 50px;
+        text-align: left;
+    }
+
+    .BasicTable {
+        margin: auto;
+    }
+    #display {
+        width: 280px;
+        font-size: xx-large;
+        font-weight: 700;
+    }
+
+    #buttonC {
+        border-color: #FB482F;
+        background-color: #FB482F;
+        font-size: x-large;
+        font-weight: bold;
+        min-width: 40px;
+        width: 68px;
+        height: 68px;
+    }
+
+    #button {
+        border-color: #CCCCCC;
+        background-color: #CCCCCC;
+        font-size: x-large;
+        font-weight: bold;
+        min-width: 40px;
+        width: 68px;
+        height: 68px;
+    }
+
+    #button2 {
+        border-color: #999999;
+        background-color: #999999;
+        height: 138px;
+        min-width: 40px;
+        width: 68px;
+        font-size: x-large;
+        font-weight: bold;
+    }
+
+    #button3 {
+        border-color: #CCCCCC;
+        background-color: #CCCCCC;
+        height: 68px;
+        min-width: 40px;
+        width: 141px;
+        font-size: x-large;
+        font-weight: bold;
+    }
+
+    #button4 {
+        border-color: #999999;
+        background-color: #999999;
+        font-size: x-large;
+        font-weight: bold;
+        min-width: 40px;
+        width: 68px;
+        height: 68px;
+    }
+
+    #button5 {
+        border-color: #333333;
+        background-color: #333333;
+        height: 138px;
+        min-width: 40px;
+        width: 68px;
+        font-size: x-large;
+        font-weight: bold;
+        color: #fff;
+    }
+}
+@media screen and (-ms-view-state: fullscreen-portrait) {
+    
+    h1 {
+        color: #f00;
+        font-size: xx-large;
+        font-weight: 600;
+        margin-top: 30px;
+        margin-left: 40px;
+    }
+    .BasicTable {
+        margin: auto;
+    }
+    #display {
+        width: 340px;
+        font-size:xx-large;
+        font-weight:700;
+    }
+    
+    #buttonC {
+        border-color: #FB482F;
+        background-color: #FB482F;
+        font-size: xx-large;
+        font-weight:bold;
+        min-width: 40px;
+        width: 80px;
+        height:80px;
+    }
+
+    #button {
+        border-color: #CCCCCC;
+        background-color: #CCCCCC;
+        font-size: xx-large;
+        font-weight:bold;
+        min-width: 40px;
+        width: 80px;
+        height:80px;
+    }
+
+    #button2 {
+        border-color: #999999;
+        background-color: #999999;
+        height: 164px;
+        min-width: 40px;
+        width: 80px;
+        font-size:xx-large;
+        font-weight:bold;
+        }
+
+    #button3 {
+        border-color: #CCCCCC;
+        background-color: #CCCCCC;
+        height: 80px;
+        min-width: 40px;
+        width:168px;
+        font-size:xx-large;
+        font-weight:bold;
+    }
+
+    #button4 {
+        border-color: #999999;
+        background-color: #999999;
+        font-size: xx-large;
+        font-weight: bold;
+        min-width: 40px;
+        width: 80px;
+        height: 80px;
+    }
+
+    #button5 {
+        border-color: #333333;
+        background-color: #333333;
+        height: 164px;
+        min-width: 40px;
+        width: 80px;
+        font-size: xx-large;
+        font-weight: bold;
+        color:#fff;
+    }
+}

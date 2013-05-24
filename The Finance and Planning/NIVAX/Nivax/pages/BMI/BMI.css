@@ -1,0 +1,435 @@
+﻿
+@media screen and (-ms-view-state: fullscreen-landscape) {
+    p {
+        margin-left: 120px;
+    }
+
+    h1 {
+        color: #8c00f8;
+        font-size: xx-large;
+        font-weight: 600;
+        margin-top: 30px;
+        margin-left: 40px;
+    }
+
+    .BMITable {
+        border-collapse: collapse;
+        margin-top: 25px;
+    }
+
+    .BMITable, .BMItd, th {
+        border: 3px solid #8c00f8;
+        padding-bottom:2px;
+        padding-top:2px;
+        padding-left:5px;
+        padding-right:5px;
+        font-size:small;
+        font-weight:400;
+    }
+
+    th {
+        background-color: #8c00f8;
+        color:#fff;
+    }
+
+    #BMIh2 {
+        font-size: large;
+        margin-left: 130px;
+    }
+
+    #inputsBMI {
+        margin-left: 120px;
+        float: left;
+    }
+
+    /*#outputsimple {
+        margin-top: 40px;
+        margin-left: 55px;
+    }*/
+
+    #inputboxBMI {
+        text-align: center;
+        background-color: rgba(202, 202, 202, 0.4);
+        border-color: rgba(202, 202, 202, 0.4);
+        width: 150px;
+    }
+
+    #outputboxBMI {
+        text-align: center;
+        border-color: #fff;
+        font-weight:600;
+        font-size:large;
+        width:185px;
+    }
+
+    #buttonBMIdiv {
+        margin-top: 20px;
+        margin-left: 260px;
+    }
+
+    #buttonBMI {
+        font-size: x-large;
+        color: #fff;
+        background-color: #8c00f8;
+        border-color: #8c00f8;
+        padding-bottom: 5px;
+        padding-top: 5px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .lBMI {
+        display: inline-block;
+        width: 120px;
+        margin-left:100px;
+    }
+
+    #lBMI2 {
+        font-weight: 600;
+        font-size: large;
+    }
+    input[type=tel] {
+        font: 15px;
+        width: auto;
+        height: auto;
+        top: auto;
+        right: auto;
+        bottom: auto;
+        left: auto;
+    }
+
+        input[type=text]:disabled, input[type=file]::-ms-value,
+        textarea:disabled, .win-textarea:disabled, select:disabled,
+        input:disabled::-ms-check, input:disabled:active::-ms-check {
+            background-color: #fff;
+            border-color: rgba(0, 0, 0, 0.27);
+            color: #000;
+        }
+}
+
+@media screen and (-ms-view-state: filled) {
+    p {
+        margin-left: 90px;
+    }
+
+    h1 {
+        color: #8c00f8;
+        font-size: xx-large;
+        font-weight: 600;
+        margin-top: 30px;
+        margin-left: 30px;
+    }
+
+    .BMITable {
+        border-collapse: collapse;
+        margin-top: 25px;
+    }
+
+    .BMITable, .BMItd, th {
+        border: 3px solid #8c00f8;
+        padding-bottom:2px;
+        padding-top:2px;
+        padding-left:5px;
+        padding-right:5px;
+        font-size:small;
+        font-weight:400;
+    }
+
+    th {
+        background-color: #8c00f8;
+        color:#fff;
+    }
+
+    #BMIh2 {
+        font-size: large;
+        margin-left: 100px;
+    }
+
+    #inputsBMI {
+        margin-left: 90px;
+        float: left;
+    }
+
+    /*#outputsimple {
+        margin-top: 40px;
+        margin-left: 55px;
+    }*/
+
+    #inputboxBMI {
+        text-align: center;
+        background-color: rgba(202, 202, 202, 0.4);
+        border-color: rgba(202, 202, 202, 0.4);
+        width: 150px;
+    }
+
+    #outputboxBMI {
+        text-align: center;
+        border-color: #fff;
+        font-weight:600;
+        font-size:large;
+        width:185px;
+    }
+
+    #buttonBMIdiv {
+        margin-top: 20px;
+        margin-left: 230px;
+    }
+
+    #buttonBMI {
+        font-size: x-large;
+        color: #fff;
+        background-color: #8c00f8;
+        border-color: #8c00f8;
+        padding-bottom: 5px;
+        padding-top: 5px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .lBMI {
+        display: inline-block;
+        width: 120px;
+        margin-left:100px;
+    }
+
+    #lBMI2 {
+        font-weight: 600;
+        font-size: large;
+    }
+    input[type=tel] {
+        font: 15px;
+        width: auto;
+        height: auto;
+        top: auto;
+        right: auto;
+        bottom: auto;
+        left: auto;
+    }
+
+    input[type=text]:disabled, input[type=file]::-ms-value,
+    textarea:disabled, .win-textarea:disabled, select:disabled,
+    input:disabled::-ms-check, input:disabled:active::-ms-check {
+        background-color: #fff;
+        border-color: rgba(0, 0, 0, 0.27);
+        color: #000;
+    }
+}
+
+@media screen and (-ms-view-state: snapped) {
+    /*p {
+        margin: .2em 0 .2em 0;
+    }*/
+
+    h1 {
+        color: #8c00f8;
+        font-size: x-large;
+        font-weight: 600;
+        margin-top: 10px;
+        margin-left: 50px;
+        text-align: left;
+    }
+    .BMITable {
+        border-collapse: collapse;
+        margin-top: 450px;
+        margin-left:30px;
+    }
+
+    .BMITable, .BMItd, th {
+        border: 3px solid #8c00f8;
+        padding-bottom:2px;
+        padding-top:2px;
+        padding-left:5px;
+        padding-right:5px;
+        font-size:x-small;
+        font-weight:400;
+    }
+
+    th {
+        background-color: #8c00f8;
+        color:#fff;
+    }
+
+    #BMIh2 {
+        font-size: large;
+        /*margin-left: 20px;*/
+        margin-top:20px;
+    }
+
+    #inputsBMI {
+        margin-left: 25px;
+        float: left;
+    }
+
+    /*#outputsimple {
+        margin-left: 10px;
+        float: left;
+    }*/
+
+    #inputboxBMI {
+        text-align: center;
+        background-color: rgba(202, 202, 202, 0.4);
+        border-color: rgba(202, 202, 202, 0.4);
+        width: 130px;
+    }
+
+    #outputboxBMI {
+        text-align: center;
+        border-color: #fff;
+        font-weight:600;
+        font-size: large;
+        width:180px;
+    }
+
+    #buttonBMIdiv {
+        margin-left: 5px;
+    }
+
+    #buttonBMI {
+        font-size: x-large;
+        color: #fff;
+        background-color: #8c00f8;
+        border-color: #8c00f8;
+        padding-bottom: 5px;
+        padding-top: 5px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .lBMI {
+        display: inline-block;
+        width: 120px;
+    }
+
+    #lBMI2 {
+        display: inline-block;
+        width: 100px;
+        font-size: medium;
+    }
+
+    input[type=tel] {
+        font: 15px;
+        width: auto;
+        height: auto;
+        top: auto;
+        right: auto;
+        bottom: auto;
+        left: auto;
+    }
+
+    input[type=text]:disabled, input[type=file]::-ms-value,
+    textarea:disabled, .win-textarea:disabled, select:disabled,
+    input:disabled::-ms-check, input:disabled:active::-ms-check {
+        background-color: #fff;
+        border-color: rgba(0, 0, 0, 0.27);
+        color: #000;
+    }
+}
+
+@media screen and (-ms-view-state: fullscreen-portrait) {
+    p {
+        margin-left: 20px;
+    }
+
+    h1 {
+        color: #8c00f8;
+        font-size: xx-large;
+        font-weight: 600;
+        margin-top: 30px;
+        margin-left: 40px;
+    }
+
+    .BMITable {
+        border-collapse: collapse;
+        margin-top: 450px;
+        margin-left:250px;
+    }
+
+    .BMITable, .BMItd, th {
+        border: 3px solid #8c00f8;
+        padding-bottom:2px;
+        padding-top:2px;
+        padding-left:5px;
+        padding-right:5px;
+        font-size:small;
+        font-weight:400;
+    }
+
+    th {
+        background-color: #8c00f8;
+        color:#fff;
+    }
+
+    #BMIh2 {
+        font-size: large;
+        margin-left: 20px;
+    }
+
+    #inputsBMI {
+        margin-left: 120px;
+        float: left;
+    }
+
+    /*#outputsimple {
+        margin-top: 40px;
+        margin-left: 55px;
+    }*/
+
+    #inputboxBMI {
+        text-align: center;
+        background-color: rgba(202, 202, 202, 0.4);
+        border-color: rgba(202, 202, 202, 0.4);
+        width: 150px;
+    }
+
+    #outputboxBMI {
+        text-align: center;
+        border-color: #fff;
+        font-weight:600;
+        font-size:large;
+        width:285px;
+    }
+
+    #buttonBMIdiv {
+        margin-top: 20px;
+        margin-left: 260px;
+    }
+
+    #buttonBMI {
+        font-size: x-large;
+        color: #fff;
+        background-color: #8c00f8;
+        border-color: #8c00f8;
+        padding-bottom: 5px;
+        padding-top: 5px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .lBMI {
+        display: inline-block;
+        width: 170px;
+        margin-left:100px;
+    }
+
+    #lBMI2 {
+        font-weight: 600;
+        font-size: large;
+    }
+    input[type=tel] {
+        font: 15px;
+        width: auto;
+        height: auto;
+        top: auto;
+        right: auto;
+        bottom: auto;
+        left: auto;
+    }
+
+        input[type=text]:disabled, input[type=file]::-ms-value,
+        textarea:disabled, .win-textarea:disabled, select:disabled,
+        input:disabled::-ms-check, input:disabled:active::-ms-check {
+            background-color: #fff;
+            border-color: rgba(0, 0, 0, 0.27);
+            color: #000;
+        }
+}

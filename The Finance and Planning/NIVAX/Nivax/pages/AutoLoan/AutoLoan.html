@@ -1,0 +1,90 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>AutoLoan</title>
+
+    <!-- WinJS references -->
+    <link href="//Microsoft.WinJS.1.0/css/ui-light.css" rel="stylesheet" />
+    <script src="//Microsoft.WinJS.1.0/js/base.js"></script>
+    <script src="//Microsoft.WinJS.1.0/js/ui.js"></script>
+    
+    <link href="AutoLoan.css" rel="stylesheet" />
+    <script src="AutoLoan.js"></script>
+    <script src="/js/formatpercent.js"></script>
+    <script src="/js/formatcurrency.js"></script>
+    <script src="/js/undoformatcurrency.js"></script>
+
+
+</head>
+<body>
+    <div class="Simple fragment">
+        <header aria-label="Header content" role="banner">
+            <button class="win-backbutton" type="button" aria-label="Back" disabled></button>
+            <h1 class="titlearea win-type-ellipsis">
+                <span class="pagetitle" style="color: #46ec69">Auto Loan</span>
+            </h1>
+        </header>
+        <section aria-label="Main content" role="main">
+            <div id="inputsauto">
+            <h2 class="autoh2">Enter information below:</h2>
+
+            <p>
+                <label for:"txtCost" class="lauto">Vehicle Cost:</label>
+                <INPUT type="tel" NAME="txtCost" VALUE="" onchange="this.value=formatCurrency(this.value);" id="inputboxauto">
+            </p>
+            <p>
+                <label for:"txtTaxRate" class="lauto">Sales Tax Rate:</label>
+                <INPUT type="tel"  NAME="txtTaxRate" VALUE="8.00%" onchange="this.value=formatPercent(this.value);" id="inputboxauto">
+            </p>
+            <p>
+                <label for:"txtReg" class="lauto">Title and Registration:</label>
+                <INPUT type="tel" NAME="txtReg" VALUE="$300.00" onchange="this.value=formatCurrency(this.value);" id="inputboxauto">
+            </p>
+            <p>
+                <label for:"txtRebate" class="lauto">Rebates:</label>
+                <INPUT type="tel" NAME="txtRebate" VALUE="$0.00" onchange="this.value=formatCurrency(this.value);" id="inputboxauto">
+            </p>
+            <p>
+                <label for:"txtTradeIn" class="lauto">Trade-in Value:</label>
+                <INPUT type="tel" NAME="txtTradeIn" VALUE="$0.00" onchange="this.value=formatCurrency(this.value);" id="inputboxauto">
+            </p>
+            <p>
+                <label for:"txtDP" class="lauto">Down Payment:</label>
+                <INPUT type="tel" NAME="txtDP" VALUE="$0.00" onchange="this.value=formatCurrency(this.value);" id="inputboxauto">
+            </p>
+            <p>
+                <label for:"txtir" class="lauto">Interest Rate:</label>
+                <INPUT type="tel" NAME="txtir" VALUE="" onchange="this.value=formatPercent(this.value);" id ="inputboxauto">
+            </p>
+            <p>
+                <label for:"txtyears" class="lauto">Length (years):</label>
+                <INPUT type="tel" NAME="txtyears" VALUE="" id ="inputboxauto">
+            </p>
+
+            <p>
+                <label for:"txtMP"  class="lauto2"> Monthly Payment  =</label>    
+                <INPUT type="text" NAME="txtMP" disabled="disabled" readonly="readonly" onblur="this.value=formatCurrency(this.value);" id="outputboxauto">
+            </p>
+            <div id="buttonautodiv">
+            <p>
+                <button type="button" value="Calculate" name="calc" id="buttonauto" onclick="txtCost.value=undoformatCurrency(txtCost.value);
+                                                                                          txtReg.value=undoformatCurrency(txtReg.value);
+                                                                                          txtRebate.value=undoformatCurrency(txtRebate.value);
+                                                                                          txtTradeIn.value=undoformatCurrency(txtTradeIn.value);
+                                                                                          txtDP.value=undoformatCurrency(txtDP.value);
+                                                                                          autoloan(); 
+                                                                                          txtCost.value=formatCurrency(txtCost.value); 
+                                                                                          txtReg.value=formatCurrency(txtReg.value);
+                                                                                          txtRebate.value=formatCurrency(txtRebate.value);
+                                                                                          txtTradeIn.value=formatCurrency(txtTradeIn.value);
+                                                                                          txtDP.value=formatCurrency(txtDP.value);                                                                                     
+                                                                                          txtMP.value=formatCurrency(txtMP.value);" >Calculate</button>
+
+            </p>
+                </div>
+                </div>
+        </section>
+    </div>
+</body>
+</html>

@@ -1,0 +1,118 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Mortgage</title>
+
+    <!-- WinJS references -->
+    <link href="//Microsoft.WinJS.1.0/css/ui-light.css" rel="stylesheet" />
+    <script src="//Microsoft.WinJS.1.0/js/base.js"></script>
+    <script src="//Microsoft.WinJS.1.0/js/ui.js"></script>
+    
+    <link href="Mortgage.css" rel="stylesheet" />
+    <script src="Mortgage.js"></script>
+    <script src="/js/calcprinc.js"></script>
+    <script src="/js/formatcurrency.js"></script>
+    <script src="/js/formatpercent.js"></script>
+    <script src="/js/undoformatcurrency.js"></script>
+
+</head>
+<body>
+    <div class="Mortgage fragment">
+        <header aria-label="Header content" role="banner">
+            <button class="win-backbutton" type="button" aria-label="Back" disabled></button>
+            <h1 class="titlearea win-type-ellipsis">
+                <span class="pagetitle" style="color: #00d8ff">Mortgage Calculator</span>
+            </h1>
+        </header>
+        <section aria-label="Main content" role="main">
+            <div id="inputsmc">
+            <h2 id="Mortgageh2">Enter information below:</h2>
+
+            <p>
+                <label for:"txtHomePrice" id="lmortgage">Price of Home:</label>
+                <INPUT type="tel" NAME="txtHomePrice" VALUE="" MAXLENGTH="12" SIZE=12 onblur="calcprinc ()"; onchange="this.value=formatCurrency(this.value);" id="inputbox">
+            </p>
+            <p>
+                <label for:"txtdp" id="lmortgage">Down Payment:</label>
+                <INPUT type="tel" name="txtdp" VALUE="" MAXLENGTH="12" SIZE=12 onblur="calcprinc ()"; onchange="this.value=formatCurrency(this.value);" id="inputbox">
+            </p>
+            <p>
+                <label for:"txtprinc" id="lmortgage">Principal:</label> 
+                <INPUT type="text" STYLE="border-color:#fff;" NAME="txtprinc" readonly="readonly" disabled="disabled" MAXLENGTH="12" SIZE=12  id ="principal">
+            </p>
+            <p>
+                <label for:"txtir" id="lmortgage2">Interest Rate:</label>
+                <INPUT type="tel" style="width:75px" NAME="txtir" VALUE="" onchange="this.value=formatPercent(this.value);" id ="mortgageinputboxsmall">
+            </p>
+            <p>
+                <label for:"txtyears" id="lmortgage2">Length (years):</label>
+                <INPUT type="tel" NAME="txtyears" VALUE="" id="mortgageinputboxsmall">
+            </p>
+            <p>
+                <label for:"txttaxrate" id="lmortgage2">Property Tax Rate:</label>
+                <INPUT type="tel" NAME="txttaxrate" VALUE="1.00%" onchange="this.value=formatPercent(this.value);" id="mortgageinputboxsmall">
+            </p>
+            <p>
+                <label for:"txthomeins" id="lmortgage2">Home Insurance Rate:</label>
+                <INPUT type="tel" NAME="txthomeins" VALUE=".25%" onchange="this.value=formatPercent(this.value);" id="mortgageinputboxsmall">
+            </p>
+            <p>
+                <label for:"txtMortgageins" id="lmortgage2">Mortgage Insurance Rate:</label>
+                <INPUT type="tel" NAME="txtMortgageins" VALUE=".50%" onchange="this.value=formatPercent(this.value);" id="mortgageinputboxsmall">
+            </p>
+            </div>
+
+            <div id="outputsmc">
+            <p>
+                <label for:"txtMP" id="lmortgage3"> Monthly Payment  =</label>    
+                <INPUT type="text" NAME="txtMP" disabled="disabled" readonly="readonly" onblur="this.value=formatCurrency(this.value);" id="outputbox">
+            </p>
+            <p>
+                <label for:"txtPT" id="lmortgage3">Property Taxes  =</label>
+                <INPUT type="text" NAME="txtPT" disabled="disabled" readonly="readonly" onblur="this.value=formatCurrency(this.value);" id="outputbox">
+            </p>
+            <p>
+                <label for:"txtHI" id="lmortgage3">Home Insurance  =</label>
+                <INPUT type="text" NAME="txtHI" disabled="disabled" readonly="readonly" onblur="this.value=formatCurrency(this.value);" id="outputbox">
+            </p>
+            <p>
+                <label for:"txtMI" id="lmortgage3">Mortgage Insurance  =</label>
+                <INPUT type="text" NAME="txtMI" disabled="disabled" readonly="readonly" onblur="this.value=formatCurrency(this.value);" id="outputbox">
+            </p>
+
+            <p>
+                <textarea name="txtCount" disabled="disabled" readonly="readonly" style="border-color:#fff" rows="2" id ="MICountBox"></textarea>
+            </p>
+
+            </div>
+
+                <hr  style="height:.5em; border-style:hidden; background-color:#808080; width:300px; float:left;" />
+                <br />
+            <div id="tpaymentmc">
+            <p> 
+                <label for:"txtpayment" id="lmortgage4">Total Payment  =</label>    
+                <INPUT type="text" NAME="txtpayment" disabled="disabled" readonly="readonly" onblur="this.value=formatCurrency(this.value);" onchange="this.value=formatCurrency(this.value);" id="mtpoutputbox">
+            </p>
+            </div>
+            <div id="buttonMCdiv">
+            <p>
+                <button type="button" value="Calculate" name="calc" id="buttonMC" 
+                    onclick="txtHomePrice.value=undoformatCurrency(txtHomePrice.value);
+                            txtdp.value=undoformatCurrency(txtdp.value);
+                            mortgageloan();
+                            txtHomePrice.value=formatCurrency(txtHomePrice.value);
+                            txtdp.value=formatCurrency(txtdp.value);        
+                            txtprinc.value=formatCurrency(txtprinc.value);
+                            txtMP.value=formatCurrency(txtMP.value);
+                            txtPT.value=formatCurrency(txtPT.value);
+                            txtHI.value=formatCurrency(txtHI.value);
+                            txtMI.value=formatCurrency(txtMI.value);
+                            txtpayment.value=formatCurrency(txtpayment.value);" >Calculate</button>
+
+            </p>
+            </div>
+        </section>
+    </div>
+</body>
+</html>

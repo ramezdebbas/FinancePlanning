@@ -1,0 +1,51 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Weight</title>
+
+    <!-- WinJS references -->
+    <link href="//Microsoft.WinJS.1.0/css/ui-light.css" rel="stylesheet" />
+    <script src="//Microsoft.WinJS.1.0/js/base.js"></script>
+    <script src="//Microsoft.WinJS.1.0/js/ui.js"></script>
+
+    <link href="Weight.css" rel="stylesheet" />
+    <script src="Weight.js"></script>
+</head>
+<body>
+    <div class="Weight fragment">
+        <header aria-label="Header content" role="banner">
+            <button class="win-backbutton" type="button" aria-label="Back" disabled type="button"></button>
+            <h1 class="titlearea win-type-ellipsis">
+                <span class="pagetitle" style="color: #8c00f8;">Ideal Weight</span>
+            </h1>
+        </header>
+        <section aria-label="Main content" role="main">
+            <div id="inputsWeight">
+            <h2 id="Weighth2">Enter information below:</h2>
+                <br />
+            <p>
+                <label for:"txtfeet class="lWeight">Feet:</label>
+                <INPUT type="tel" NAME="txtfeet" VALUE="" id="inputboxWeight">
+            </p>
+            <p>
+                <label for:"txtinches" class="lWeight">Inches:</label>
+                <INPUT type="tel" name="txtinches" VALUE="" id="inputboxWeight">
+            </p>
+                <br />
+            <p> 
+                <label for:"txtIW" id="lWeight2">Ideal Weight: </label>    
+                <INPUT type="text" NAME="txtIW" disabled="disabled" readonly="readonly" id="outputboxWeight">
+            </p>
+            <div id="buttonWeightdiv">
+            <p>
+                <button type="button" value="Calculate" name="calc" id="buttonWeight" 
+                    onclick="WeightCalc()">Calculate</button>
+            </p>
+                </div>
+                </div>
+
+        </section>
+    </div>
+</body>
+</html>

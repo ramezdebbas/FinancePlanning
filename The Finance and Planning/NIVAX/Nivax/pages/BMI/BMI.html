@@ -1,0 +1,85 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>BMI</title>
+
+    <!-- WinJS references -->
+    <link href="//Microsoft.WinJS.1.0/css/ui-light.css" rel="stylesheet" />
+    <script src="//Microsoft.WinJS.1.0/js/base.js"></script>
+    <script src="//Microsoft.WinJS.1.0/js/ui.js"></script>
+
+    <link href="BMI.css" rel="stylesheet" />
+    <script src="BMI.js"></script>
+</head>
+<body>
+    <div class="BMI fragment">
+        <header aria-label="Header content" role="banner">
+            <button class="win-backbutton" type="button" aria-label="Back" disabled type="button"></button>
+            <h1 class="titlearea win-type-ellipsis">
+                <span class="pagetitle" style="color: #8c00f8;">Body Mass Index</span>
+            </h1>
+        </header>
+        <section aria-label="Main content" role="main">
+            <div id="inputsBMI">
+            <h2 id="BMIh2">Enter information below:</h2>
+                <br />
+            <p>
+                <label for:"txtfeet class="lBMI">Feet:</label>
+                <INPUT type="tel" NAME="txtfeet" VALUE="" id="inputboxBMI">
+            </p>
+            <p>
+                <label for:"txtinches" class="lBMI">Inches:</label>
+                <INPUT type="tel" name="txtinches" VALUE="" id="inputboxBMI">
+            </p>
+            <p>
+                <label for:"txtweight" class="lBMI">Weight (lbs):</label>
+                <INPUT type="tel" NAME="txtweight" VALUE="" id ="inputboxBMI">
+            </p>
+                <br />
+            <p> 
+                <label for:"txtBMI" id="lBMI2">Body Mass Index (BMI): </label>    
+                <INPUT type="text" NAME="txtBMI" disabled="disabled" readonly="readonly" id="outputboxBMI">
+            </p>
+            <div id="buttonBMIdiv">
+            <p>
+                <button type="button" value="Calculate" name="calc" id="buttonBMI" 
+                    onclick="BMICalc()">Calculate</button>
+            </p>
+                </div>
+                </div>
+            <br />
+                <table class="BMITable">
+                <tr>
+                <th>Category</th>
+                <th>BMI Range</th>
+                </tr>
+                <tr>
+                <td class="BMItd">Underweight</td>
+                <td class="BMItd">less than 18.5</td>
+                </tr>
+                <tr>
+                <td class="BMItd">Normal (healthy weight)</td>
+                <td class="BMItd">18.5 to 24.9</td>
+                </tr>
+                <tr>
+                <td class="BMItd">Overweight</td>
+                <td class="BMItd">25.0 to 29.9</td>
+                </tr>
+                <tr>
+                <td class="BMItd">Obese Class I (Moderately obese)</td>
+                <td class="BMItd">30.0 to 34.9</td>
+                </tr>
+                <tr>
+                <td class="BMItd">Obese Class II (Severely obese)</td>
+                <td class="BMItd">35.0 to 39.9</td>
+                </tr>
+                <tr>
+                <td class="BMItd">Obese Class III (Very severely obese)</td>
+                <td class="BMItd">40.0 and higher</td>
+                </tr>
+                </table>
+        </section>
+    </div>
+</body>
+</html>

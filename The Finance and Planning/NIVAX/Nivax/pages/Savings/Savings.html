@@ -1,0 +1,62 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Savings</title>
+
+    <!-- WinJS references -->
+    <link href="//Microsoft.WinJS.1.0/css/ui-light.css" rel="stylesheet" />
+    <script src="//Microsoft.WinJS.1.0/js/base.js"></script>
+    <script src="//Microsoft.WinJS.1.0/js/ui.js"></script>
+
+    <link href="Savings.css" rel="stylesheet" />
+    <script src="Savings.js"></script>
+    <script src="/js/formatpercent.js"></script>
+    <script src="/js/formatcurrency.js"></script>
+    <script src="/js/undoformatcurrency.js"></script>
+
+</head>
+<body>
+    <div class="Savings fragment">
+        <header aria-label="Header content" role="banner">
+            <button class="win-backbutton" aria-label="Back" disabled type="button"></button>
+            <h1 class="titlearea win-type-ellipsis">
+                <span class="pagetitle" style="color: #46ec69">Simple Savings</span>
+            </h1>
+        </header>
+        <section aria-label="Main content" role="main">
+            <div id="inputsavings">
+            <h2 id="savingsh2">Enter information below:</h2>
+            <br />
+            <p>
+                <label for:"txtPrincipal" id="lsavings">Starting Amount:</label>
+                <INPUT type="tel" NAME="txtPrincipal" VALUE="" onchange="this.value=formatCurrency(this.value);" id="inputboxsavings">
+            </p>
+            <p>
+                <label for:"txtMD" id="lsavings">Monthly Deposit:</label>
+                <INPUT type="tel" NAME="txtMD" VALUE="" onchange="this.value=formatCurrency(this.value);" id="inputboxsavings">
+            </p>
+
+            <p>
+                <label for:"txtir" id="lsavings">Interest Rate:</label>
+                <INPUT type="tel" NAME="txtir" VALUE="" onchange="this.value=formatPercent(this.value);" id ="inputboxsavings">
+            </p>
+            <p>
+                <label for:"txtyears" id="lsavings">Years:</label>
+                <INPUT type="tel" NAME="txtyears" VALUE="" id="inputboxsavings">
+            </p>
+                <br />
+            <p>
+                <label for:"txtSavings" id="lsavings2">Savings:</label>    
+                <INPUT type="text" NAME="txtSavings" disabled="disabled" readonly="readonly" onblur="this.value=formatCurrency(this.value);" id="outputboxsavings">
+            </p>
+
+            <div id="buttonsavingsdiv">
+            <p>
+                <button type="button" value="Calculate" name="calc" id="buttonsavings" onclick="txtPrincipal.value=undoformatCurrency(txtPrincipal.value); txtMD.value=undoformatCurrency(txtMD.value); savingscalc(); txtPrincipal.value=formatCurrency(txtPrincipal.value); txtMD.value=formatCurrency(txtMD.value); txtSavings.value=formatCurrency(txtSavings.value);" >Calculate</button>
+
+            </p>
+        </section>
+    </div>
+</body>
+</html>

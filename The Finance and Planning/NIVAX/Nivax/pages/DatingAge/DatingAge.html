@@ -1,0 +1,54 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>DatingAge</title>
+
+    <!-- WinJS references -->
+    <link href="//Microsoft.WinJS.1.0/css/ui-light.css" rel="stylesheet" />
+    <script src="//Microsoft.WinJS.1.0/js/base.js"></script>
+    <script src="//Microsoft.WinJS.1.0/js/ui.js"></script>
+
+    <link href="DatingAge.css" rel="stylesheet" />
+    <script src="DatingAge.js"></script>
+</head>
+<body>
+    <div class="DatingAge fragment">
+        <header aria-label="Header content" role="banner">
+            <button class="win-backbutton" aria-label="Back" disabled type="button"></button>
+            <h1 class="titlearea win-type-ellipsis">
+                <span class="pagetitle" style="color:#ff0808">Dating Age</span>
+            </h1>
+        </header>
+        <section aria-label="Main content" role="main">
+            <div id="inputsDA">
+            <h2 id="DAh2">Enter information below:</h2>
+                <br />
+            <p>
+                <label for:"txtAge" class="lDA">Age:</label>
+                <INPUT type="tel" NAME="txtAge" style="width:100px" VALUE="" id="inputboxDA">
+            </p>
+                <br />
+            <p>
+                <label for="slider" class="lDAlslide">Cougar / Manther</label>
+				<input type="range" name="slider" style="width:175px" min="-2" max="2" step="1" onchange="DateCalc()"/>
+                <label for="slider" class="lDArslide">Gold Digger</label>
+            </p>
+                <br />
+            <p>
+<!--                <label for:"txtLDA" class="lDA2">LDA:</label>-->
+                <textarea name="txtLDA" disabled="disabled" readonly="readonly" rows="2" id="outputboxDA"></textarea>
+<!--                <INPUT type="text" name="txtLDA" disabled="disabled" readonly="readonly" id="outputboxDA">-->
+            </p>
+            <div id="buttonDAdiv">
+            <p>
+                <button type="button" value="Calculate" name="calc" id="buttonDA" onclick="DateCalc()">Calculate</button>
+            </p>
+                <br />
+                </div>
+            <p class="disclaimer">Note: This calculator is for fun only. It in no way permits or restricts the person one may date. It is based on an arbitrary formula with limited analysis.</p>
+                </div>
+        </section>
+    </div>
+</body>
+</html>

@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Package xmlns="http://schemas.microsoft.com/appx/2010/manifest">
+  <Identity Name="52583Thatslink.TheFinancePlanning" Version="1.0.0.0" Publisher="CN=44D17C68-1F3E-4223-8D43-0DF0DDE774CA" />
+  <Properties>
+    <DisplayName>The Finance Planning</DisplayName>
+    <PublisherDisplayName>Thatslink</PublisherDisplayName>
+    <Logo>images\storelogo.png</Logo>
+  </Properties>
+  <Prerequisites>
+    <OSMinVersion>6.2.1</OSMinVersion>
+    <OSMaxVersionTested>6.2.1</OSMaxVersionTested>
+  </Prerequisites>
+  <Resources>
+    <Resource Language="x-generate" />
+  </Resources>
+  <Applications>
+    <Application Id="App" StartPage="default.html">
+      <VisualElements DisplayName="The Finance Planning" Logo="images\U-Calculate150x150.png" SmallLogo="images\UCalc30.png" Description="The Finance and Planning" ForegroundText="dark" BackgroundColor="#FFFFFF">
+        <DefaultTile ShowName="allLogos" WideLogo="images\UCalcLargeTileTrans.png" ShortName="The Finance and Planning" />
+        <SplashScreen Image="images\UCalcSplashScreen.png" BackgroundColor="#FFFFFF" />
+      </VisualElements>
+    </Application>
+  </Applications>
+</Package>

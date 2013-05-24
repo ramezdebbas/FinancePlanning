@@ -1,0 +1,354 @@
+﻿
+@media screen and (-ms-view-state: fullscreen-landscape) {
+    p {
+        margin-left: 120px;
+    }
+
+    h1 {
+        color: #8c00f8;
+        font-size: xx-large;
+        font-weight: 600;
+        margin-top: 30px;
+        margin-left: 40px;
+    }
+
+    #Weighth2 {
+        font-size: large;
+        margin-left: 130px;
+    }
+
+    #inputsWeight {
+        margin-left: 120px;
+        float: left;
+    }
+
+    /*#outputsimple {
+        margin-top: 40px;
+        margin-left: 55px;
+    }*/
+
+    #inputboxWeight {
+        text-align: center;
+        background-color: rgba(202, 202, 202, 0.4);
+        border-color: rgba(202, 202, 202, 0.4);
+        width: 150px;
+    }
+
+    #outputboxWeight {
+        text-align: center;
+        border-color: #fff;
+        font-weight:600;
+        font-size:large;
+        width: 360px;
+    }
+
+    #buttonWeightdiv {
+        margin-top: 20px;
+        margin-left: 215px;
+    }
+
+    #buttonWeight {
+        font-size: x-large;
+        color: #fff;
+        background-color: #8c00f8;
+        border-color: #8c00f8;
+        padding-bottom: 5px;
+        padding-top: 5px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .lWeight {
+        display: inline-block;
+        width: 120px;
+        margin-left:100px;
+    }
+
+    #lWeight2 {
+        font-weight: 600;
+        font-size: large;
+    }
+    input[type=tel] {
+        font: 15px;
+        width: auto;
+        height: auto;
+        top: auto;
+        right: auto;
+        bottom: auto;
+        left: auto;
+    }
+
+        input[type=text]:disabled, input[type=file]::-ms-value,
+        textarea:disabled, .win-textarea:disabled, select:disabled,
+        input:disabled::-ms-check, input:disabled:active::-ms-check {
+            background-color: #fff;
+            border-color: rgba(0, 0, 0, 0.27);
+            color: #000;
+        }
+}
+
+@media screen and (-ms-view-state: filled) {
+    p {
+        margin-left: 120px;
+    }
+
+    h1 {
+        color: #8c00f8;
+        font-size: xx-large;
+        font-weight: 600;
+        margin-top: 30px;
+        margin-left: 40px;
+    }
+
+    #Weighth2 {
+        font-size: large;
+        margin-left: 130px;
+    }
+
+    #inputsWeight {
+        margin-left: 120px;
+        float: left;
+    }
+
+    /*#outputsimple {
+        margin-top: 40px;
+        margin-left: 55px;
+    }*/
+
+    #inputboxWeight {
+        text-align: center;
+        background-color: rgba(202, 202, 202, 0.4);
+        border-color: rgba(202, 202, 202, 0.4);
+        width: 150px;
+    }
+
+    #outputboxWeight {
+        text-align: center;
+        border-color: #fff;
+        font-weight:600;
+        font-size:large;
+        width: 360px;
+    }
+
+    #buttonWeightdiv {
+        margin-top: 20px;
+        margin-left: 215px;
+    }
+
+    #buttonWeight {
+        font-size: x-large;
+        color: #fff;
+        background-color: #8c00f8;
+        border-color: #8c00f8;
+        padding-bottom: 5px;
+        padding-top: 5px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .lWeight {
+        display: inline-block;
+        width: 120px;
+        margin-left:100px;
+    }
+
+    #lWeight2 {
+        font-weight: 600;
+        font-size: large;
+    }
+    input[type=tel] {
+        font: 15px;
+        width: auto;
+        height: auto;
+        top: auto;
+        right: auto;
+        bottom: auto;
+        left: auto;
+    }
+
+        input[type=text]:disabled, input[type=file]::-ms-value,
+        textarea:disabled, .win-textarea:disabled, select:disabled,
+        input:disabled::-ms-check, input:disabled:active::-ms-check {
+            background-color: #fff;
+            border-color: rgba(0, 0, 0, 0.27);
+            color: #000;
+        }
+}
+
+@media screen and (-ms-view-state: snapped) {
+    /*p {
+        margin: .2em 0 .2em 0;
+    }*/
+
+    h1 {
+        color: #8c00f8;
+        font-size: x-large;
+        font-weight: 600;
+        margin-top: 10px;
+        margin-left: 50px;
+        text-align: left;
+    }
+
+    #Weighth2 {
+        font-size: large;
+        /*margin-left: 20px;*/
+        margin-top:20px;
+    }
+
+    #inputsWeight {
+        margin-left: 25px;
+        float: left;
+    }
+
+    /*#outputsimple {
+        margin-left: 10px;
+        float: left;
+    }*/
+
+    #inputboxWeight {
+        text-align: center;
+        background-color: rgba(202, 202, 202, 0.4);
+        border-color: rgba(202, 202, 202, 0.4);
+        width: 130px;
+    }
+
+    #outputboxWeight {
+        text-align: center;
+        border-color: #fff;
+        font-weight:600;
+        font-size:medium;
+        width:235px;
+    }
+
+    #buttonWeightdiv {
+        margin-left: 5px;
+    }
+
+    #buttonWeight {
+        font-size: x-large;
+        color: #fff;
+        background-color: #8c00f8;
+        border-color: #8c00f8;
+        padding-bottom: 5px;
+        padding-top: 5px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .lWeight {
+        display: inline-block;
+        width: 120px;
+    }
+
+    #lWeight2 {
+        display: inline-block;
+        width: 50px;
+        font-size: medium;
+    }
+
+    input[type=tel] {
+        font: 15px;
+        width: auto;
+        height: auto;
+        top: auto;
+        right: auto;
+        bottom: auto;
+        left: auto;
+    }
+
+    input[type=text]:disabled, input[type=file]::-ms-value,
+    textarea:disabled, .win-textarea:disabled, select:disabled,
+    input:disabled::-ms-check, input:disabled:active::-ms-check {
+        background-color: #fff;
+        border-color: rgba(0, 0, 0, 0.27);
+        color: #000;
+    }
+}
+
+@media screen and (-ms-view-state: fullscreen-portrait) {
+    p {
+        margin-left: 20px;
+    }
+
+    h1 {
+        color: #8c00f8;
+        font-size: xx-large;
+        font-weight: 600;
+        margin-top: 30px;
+        margin-left: 40px;
+    }
+
+    #Weighth2 {
+        font-size: large;
+        margin-left: 20px;
+    }
+
+    #inputsWeight {
+        margin-left: 120px;
+        float: left;
+    }
+
+    /*#outputsimple {
+        margin-top: 40px;
+        margin-left: 55px;
+    }*/
+
+    #inputboxWeight {
+        text-align: center;
+        background-color: rgba(202, 202, 202, 0.4);
+        border-color: rgba(202, 202, 202, 0.4);
+        width: 150px;
+    }
+
+    #outputboxWeight {
+        text-align: center;
+        border-color: #fff;
+        font-weight:600;
+        font-size:large;
+        width: 460px;
+    }
+
+    #buttonWeightdiv {
+        margin-top: 20px;
+        margin-left: 265px;
+    }
+
+    #buttonWeight {
+        font-size: x-large;
+        color: #fff;
+        background-color: #8c00f8;
+        border-color: #8c00f8;
+        padding-bottom: 5px;
+        padding-top: 5px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .lWeight {
+        display: inline-block;
+        width: 170px;
+        margin-left:100px;
+    }
+
+    #lWeight2 {
+        font-weight: 600;
+        font-size: large;
+    }
+    input[type=tel] {
+        font: 15px;
+        width: auto;
+        height: auto;
+        top: auto;
+        right: auto;
+        bottom: auto;
+        left: auto;
+    }
+
+        input[type=text]:disabled, input[type=file]::-ms-value,
+        textarea:disabled, .win-textarea:disabled, select:disabled,
+        input:disabled::-ms-check, input:disabled:active::-ms-check {
+            background-color: #fff;
+            border-color: rgba(0, 0, 0, 0.27);
+            color: #000;
+        }
+}

@@ -1,0 +1,76 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>College</title>
+
+    <!-- WinJS references -->
+    <link href="//Microsoft.WinJS.1.0/css/ui-light.css" rel="stylesheet" />
+    <script src="//Microsoft.WinJS.1.0/js/base.js"></script>
+    <script src="//Microsoft.WinJS.1.0/js/ui.js"></script>
+
+    <link href="College.css" rel="stylesheet" />
+    <script src="College.js"></script>
+    <script src="/js/formatcurrency.js"></script>
+    <script src="/js/formatpercent.js"></script>
+    <script src="/js/undoformatcurrency.js"></script>
+
+</head>
+<body>
+    <div class="College fragment">
+        <header aria-label="Header content" role="banner">
+            <button class="win-backbutton" aria-label="Back" disabled type="button"></button>
+            <h1 class="titlearea win-type-ellipsis">
+                <span class="pagetitle" style="color: #46ec69">College Savings</span>
+            </h1>
+        </header>
+        <section aria-label="Main content" role="main">
+             <div id="inputsCollege">
+            <h2 class="collegeh2">Enter information below:</h2>
+
+            <p>
+                <label for:"txtCurrentCost" class="lCollege">Current Annual College Cost:</label>
+                <INPUT type="text" NAME="txtCurrentCost" VALUE="" onchange="this.value=formatCurrency(this.value);" id="inputboxCollege">
+            </p>
+            <p>
+                <label for:"txtInflation" class="lCollege">Inflation Rate:</label>
+                <INPUT type="text" NAME="txtInflation" VALUE="" onchange="this.value=formatPercent(this.value);" id="inputboxCollege">
+            </p>
+            <p>
+                <label for:"txtSavings" class="lCollege">Current Savings:</label>
+                <INPUT type="text" NAME="txtSavings" onchange="this.value=formatCurrency(this.value);" VALUE="" id="inputboxCollege">
+            </p>
+            <p>
+                <label for:"txtChildAge" class="lCollege">Current Age of Child:</label>
+                <INPUT type="text" NAME="txtChildAge" VALUE="" id="inputboxCollege">
+            </p>
+            <p>
+                <label for:"txtStartAge" class="lCollege">Age Child will Start College:</label>
+                <INPUT type="text" NAME="txtStartAge" VALUE="" id="inputboxCollege">
+            </p>
+            <p>
+                <label for:"txtLength" class="lCollege">How many years of college:</label>
+                <INPUT type="text" NAME="txtLength" VALUE="" id="inputboxCollege">
+            </p>
+            <p>
+                <label for:"txtROS" class="lCollege">Annual Return on Savings:</label>
+                <INPUT type="text" NAME="txtROS" VALUE="" onchange="this.value=formatPercent(this.value);" id="inputboxCollege">
+            </p>
+            <p>
+                <label for:"txtTotalCollegeCost" class="lCollege">Total Cost of College:</label>
+                <INPUT type="text" NAME="txtTotalCollegeCost" disabled="disabled" readonly="readonly" VALUE="" id="outputboxCollege">
+            </p>
+            <p>
+                <label for:"txtPayment" class="lCollege">Monthly Payment:</label>
+                <INPUT type="text" NAME="txtPayment" disabled="disabled" readonly="readonly" VALUE="" id="outputboxCollege">
+            </p>
+
+            <div id="buttonCollegediv">
+            <p>
+                <button type="button" value="Calculate" name="calc" id="buttonCollege" onclick="txtCurrentCost.value=undoformatCurrency(txtCurrentCost.value); txtSavings.value=undoformatCurrency(txtSavings.value);collegesavings(); txtCurrentCost.value=formatCurrency(txtCurrentCost.value); txtTotalCollegeCost.value=formatCurrency(txtTotalCollegeCost.value); txtSavings.value=formatCurrency(txtSavings.value); txtPayment.value=formatCurrency(txtPayment.value);">Calculate</button>
+            </div>
+            </div>
+        </section>
+    </div>
+</body>
+</html>

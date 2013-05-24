@@ -1,0 +1,21 @@
+The Finance and Planning:
+Description:
+The Finance & Planning is an app having the various useable collection of calculators such as Basic, Mortgage, Auto Loan, Body Mass Index, Credit Card Pay Off, Idea Weight, Dating Age, Simple Loans & Simple Savings. You can use them and make your financial life very easy. 
+
+Features:
+•	Various Types of Calculators.
+•	Basic Calculator.
+•	Mortgage Calculator.
+•	Auto Loan Calculator.
+•	Credit Card Pay Off Calculator.
+•	Body Mass Index Calculator.
+•	Idea Weight Calculator.
+•	Dating Age Calculator.
+•	Simple Loans Calculator.
+•	Simple Savings Calculator.
+•	User Interaction & Support.
+•	Task to do. 
+•	Fully Different User Interface Designed keeping in focus point of view of Niche (Target) Market.
+•	 Live Tiles(Locally & Remotely)
+•	Searching feature.
+•	Fully Unique Branding (Unique Logo Designing & Graphics Designing).

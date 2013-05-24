@@ -1,0 +1,61 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Simple</title>
+
+    <!-- WinJS references -->
+    <link href="//Microsoft.WinJS.1.0/css/ui-light.css" rel="stylesheet" />
+    <script src="//Microsoft.WinJS.1.0/js/base.js"></script>
+    <script src="//Microsoft.WinJS.1.0/js/ui.js"></script>
+    
+    <link href="Simple.css" rel="stylesheet" />
+    <script src="Simple.js"></script>
+    <script src="/js/formatpercent.js"></script>
+    <script src="/js/formatcurrency.js"></script>
+    <script src="/js/undoformatcurrency.js"></script>
+
+</head>
+<body>
+    <div class="Simple fragment">
+        <header aria-label="Header content" role="banner">
+            <button class="win-backbutton" type="button" aria-label="Back" disabled></button>
+            <h1 class="titlearea win-type-ellipsis">
+                <span class="pagetitle" style="color: #ff6a00">Simple Loan</span>
+            </h1>
+        </header>
+        <section aria-label="Main content" role="main">
+            <div id="inputsimple">
+            <h2 id="simpleh2">Enter information below:</h2>
+            <br />
+            <p>
+                <label for:"txtPrincipal" id="lsimple">Principal:</label>
+                <INPUT type="tel" NAME="txtPrincipal" VALUE="" onchange="this.value=formatCurrency(this.value);" id="inputboxsimple">
+            </p>
+            <p>
+                <label for:"txtir" id="lsimple">Interest Rate:</label>
+                <INPUT type="tel" NAME="txtir" VALUE="" onchange="this.value=formatPercent(this.value);" id ="inputboxsimple">
+            </p>
+            <p>
+                <label for:"txtyears" id="lsimple">Length (years):</label>
+                <INPUT type="tel" NAME="txtyears" VALUE="" id="inputboxsimple">
+            </p>
+                <br />
+            <p>
+                <label for:"txtMP" id="lsimple2">Monthly Payment =</label>    
+                <INPUT type="text" NAME="txtMP" disabled="disabled" readonly="readonly" id="outputboxsimple">
+            </p>
+            <p>
+                <label for:"txtTotalLC" id="lsimple2" style="color:#808080">Total Cost of Loan =</label>    
+                <INPUT type="text" NAME="txtTotalLC" disabled="disabled" readonly="readonly" style="color:#808080" id="outputboxsimple2">
+            </p>
+
+            <div id="buttonsimplediv">
+            <p>
+                <button type="button" value="Calculate" name="calc" id="buttonsimple" onclick="txtPrincipal.value=undoformatCurrency(txtPrincipal.value); loan(); txtPrincipal.value=formatCurrency(txtPrincipal.value); txtMP.value=formatCurrency(txtMP.value);  txtTotalLC.value=formatCurrency(txtTotalLC.value);" >Calculate</button>
+
+            </p>
+        </section>
+    </div>
+</body>
+</html>

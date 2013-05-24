@@ -1,0 +1,489 @@
+﻿
+@media screen and (-ms-view-state: fullscreen-landscape) {
+    p {
+        margin-left: 120px;
+    }
+
+    h1 {
+        color: #ff0808;
+        font-size: xx-large;
+        font-weight: 600;
+        margin-top: 30px;
+        margin-left: 40px;
+    }
+
+    input[type="range"]::-ms-tooltip {
+        display: none;
+    }
+
+    input[type="range"]:active::-ms-fill-lower {
+        background-color: #ff0808;
+    }
+
+    input[type="range"]::-ms-ticks-before {
+        display: block;
+        height:8px;
+        padding-bottom:5px;
+    }
+
+    input[type="range"]::-ms-fill-lower {
+        background-color: #ff0808;
+    }
+
+    input[type="range"]:hover::-ms-fill-lower {
+        background-color: #ff0808;
+    }
+
+    .disclaimer {
+        width: 520px;
+        margin-left:200px;
+    }
+
+    #DAh2 {
+        font-size: large;
+        margin-left: 130px;
+    }
+
+    #inputsDA {
+        margin-left: 120px;
+        float: left;
+    }
+
+    #inputboxDA {
+        text-align: center;
+        background-color: rgba(202, 202, 202, 0.4);
+        border-color: rgba(202, 202, 202, 0.4);
+        width: 150px;
+        margin-left:35px;
+    }
+
+    #outputboxDA {
+        text-align: center;
+        border-color: #fff;
+        font-weight:600;
+        font-size:large;
+        width:600px;
+    }
+
+    #buttonDAdiv {
+        margin-top: 20px;
+        margin-left: 230px;
+    }
+
+    #buttonDA {
+        font-size: x-large;
+        color: #fff;
+        background-color: #ff0808;
+        border-color: #ff0808;
+        padding-bottom: 5px;
+        padding-top: 5px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .lDA {
+        display: inline-block;
+        width: 120px;
+        margin-left:100px;
+    }
+
+    .lDA2 {
+        font-weight: 600;
+        font-size: large;
+    }
+
+    .lDAlslide {
+        display: inline-block;
+        width: 160px;
+        margin-left:100px;
+    }
+
+    .lDArslide {
+        display: inline-block;
+        width: 170px;
+        margin-left:40px;
+    }
+
+    input[type=tel] {
+        font: 15px;
+        width: auto;
+        height: auto;
+        top: auto;
+        right: auto;
+        bottom: auto;
+        left: auto;
+    }
+
+        input[type=text]:disabled, input[type=file]::-ms-value,
+        textarea:disabled, .win-textarea:disabled, select:disabled,
+        input:disabled::-ms-check, input:disabled:active::-ms-check {
+            background-color: #fff;
+            border-color: rgba(0, 0, 0, 0.27);
+            color: #000;
+        }
+}
+
+@media screen and (-ms-view-state: filled) {
+    p {
+        margin-left: 120px;
+    }
+
+    h1 {
+        color: #ff0808;
+        font-size: xx-large;
+        font-weight: 600;
+        margin-top: 30px;
+        margin-left: 40px;
+    }
+
+    input[type="range"]::-ms-tooltip {
+        display: none;
+    }
+
+    input[type="range"]:active::-ms-fill-lower {
+        background-color: #ff0808;
+    }
+
+    input[type="range"]::-ms-ticks-before {
+        display: block;
+        height:8px;
+        padding-bottom:5px;
+    }
+
+    input[type="range"]::-ms-fill-lower {
+        background-color: #ff0808;
+    }
+
+    input[type="range"]:hover::-ms-fill-lower {
+        background-color: #ff0808;
+    }
+
+    .disclaimer {
+        width: 520px;
+        margin-left:200px;
+    }
+
+    #DAh2 {
+        font-size: large;
+        margin-left: 130px;
+    }
+
+    #inputsDA {
+        margin-left: 120px;
+        float: left;
+    }
+
+    #inputboxDA {
+        text-align: center;
+        background-color: rgba(202, 202, 202, 0.4);
+        border-color: rgba(202, 202, 202, 0.4);
+        width: 150px;
+        margin-left:35px;
+    }
+
+    #outputboxDA {
+        text-align: center;
+        border-color: #fff;
+        font-weight:600;
+        font-size:large;
+        width:600px;
+    }
+
+    #buttonDAdiv {
+        margin-top: 20px;
+        margin-left: 230px;
+    }
+
+    #buttonDA {
+        font-size: x-large;
+        color: #fff;
+        background-color: #ff0808;
+        border-color: #ff0808;
+        padding-bottom: 5px;
+        padding-top: 5px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .lDA {
+        display: inline-block;
+        width: 120px;
+        margin-left:100px;
+    }
+
+    .lDA2 {
+        font-weight: 600;
+        font-size: large;
+    }
+
+    .lDAlslide {
+        display: inline-block;
+        width: 160px;
+        margin-left:100px;
+    }
+
+    .lDArslide {
+        display: inline-block;
+        width: 170px;
+        margin-left:40px;
+    }
+
+    input[type=tel] {
+        font: 15px;
+        width: auto;
+        height: auto;
+        top: auto;
+        right: auto;
+        bottom: auto;
+        left: auto;
+    }
+
+        input[type=text]:disabled, input[type=file]::-ms-value,
+        textarea:disabled, .win-textarea:disabled, select:disabled,
+        input:disabled::-ms-check, input:disabled:active::-ms-check {
+            background-color: #fff;
+            border-color: rgba(0, 0, 0, 0.27);
+            color: #000;
+        }
+}
+
+@media screen and (-ms-view-state: snapped) {
+    /*p {
+        margin: .2em 0 .2em 0;
+    }*/
+
+    h1 {
+        color: #ff0808;
+        font-size: x-large;
+        font-weight: 600;
+        margin-top: 10px;
+        margin-left: 50px;
+        text-align: left;
+    }
+
+    input[type="range"]::-ms-tooltip {
+        display: none;
+    }
+
+    input[type="range"]:active::-ms-fill-lower {
+        background-color: #ff0808;
+    }
+
+    input[type="range"]::-ms-ticks-before {
+        display: block;
+        height:8px;
+        padding-bottom:5px;
+    }
+
+    input[type="range"]::-ms-fill-lower {
+        background-color: #ff0808;
+    }
+
+    input[type="range"]:hover::-ms-fill-lower {
+        background-color: #ff0808;
+    }
+
+    #DAh2 {
+        font-size: large;
+        margin-top:20px;
+    }
+
+    #inputsDA {
+        margin-left: 15px;
+        float: left;
+    }
+
+    #inputboxDA {
+        text-align: center;
+        background-color: rgba(202, 202, 202, 0.4);
+        border-color: rgba(202, 202, 202, 0.4);
+        width: 130px;
+    }
+
+    #outputboxDA {
+        text-align: left;
+        border-color: #fff;
+        font-weight:600;
+        font-size:medium;
+        width:235px;
+    }
+
+    #buttonDAdiv {
+        margin-left: 5px;
+    }
+
+    #buttonDA {
+        font-size: x-large;
+        color: #fff;
+        background-color: #ff0808;
+        border-color: #ff0808;
+        padding-bottom: 5px;
+        padding-top: 5px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .lDA {
+        display: inline-block;
+        width: 85px;
+    }
+
+    .lDA2 {
+        display: inline-block;
+        width: 50px;
+        font-size: medium;
+    }
+
+    .lDAlslide {
+        display: inline-block;
+        width: 65px;
+    }
+
+    .lDArslide {
+        display: inline-block;
+        width: 40px;
+        margin-left:5px;
+    }
+
+    input[type=tel] {
+        font: 15px;
+        width: auto;
+        height: auto;
+        top: auto;
+        right: auto;
+        bottom: auto;
+        left: auto;
+    }
+
+    input[type=text]:disabled, input[type=file]::-ms-value,
+    textarea:disabled, .win-textarea:disabled, select:disabled,
+    input:disabled::-ms-check, input:disabled:active::-ms-check {
+        background-color: #fff;
+        border-color: rgba(0, 0, 0, 0.27);
+        color: #000;
+    }
+}
+
+@media screen and (-ms-view-state: fullscreen-portrait) {
+    p {
+        margin-left: 20px;
+    }
+
+    h1 {
+        color: #ff0808;
+        font-size: xx-large;
+        font-weight: 600;
+        margin-top: 30px;
+        margin-left: 40px;
+    }
+
+    .disclaimer {
+        width: 520px;
+        margin-left:100px;
+    }
+
+    input[type="range"]::-ms-tooltip {
+        display: none;
+    }
+
+    input[type="range"]:active::-ms-fill-lower {
+        background-color: #ff0808;
+    }
+
+    input[type="range"]::-ms-ticks-before {
+        display: block;
+        height:8px;
+        padding-bottom:5px;
+    }
+
+    input[type="range"]::-ms-fill-lower {
+        background-color: #ff0808;
+    }
+
+    input[type="range"]:hover::-ms-fill-lower {
+        background-color: #ff0808;
+    }
+
+    #DAh2 {
+        font-size: large;
+        margin-left: 20px;
+    }
+
+    #inputsDA {
+        margin-left: 50px;
+        float: left;
+    }
+
+    #inputboxDA {
+        text-align: center;
+        background-color: rgba(202, 202, 202, 0.4);
+        border-color: rgba(202, 202, 202, 0.4);
+        width: 150px;
+        margin-left:25px;
+    }
+
+    #outputboxDA {
+        text-align: right;
+        border-color: #fff;
+        font-weight:600;
+        font-size:large;
+        width:600px;
+    }
+
+    #buttonDAdiv {
+        margin-top: 20px;
+        margin-left: 280px;
+    }
+
+    #buttonDA {
+        font-size: x-large;
+        color: #fff;
+        background-color: #ff0808;
+        border-color: #ff0808;
+        padding-bottom: 5px;
+        padding-top: 5px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .lDA {
+        display: inline-block;
+        width: 170px;
+        margin-left:100px;
+    }
+
+    .lDA2 {
+        font-weight: 600;
+        font-size: large;
+    }
+
+    .lDAlslide {
+        display: inline-block;
+        width: 160px;
+        margin-left:100px;
+    }
+
+    .lDArslide {
+        display: inline-block;
+        width: 170px;
+        margin-left:40px;
+    }
+
+    input[type=tel] {
+        font: 15px;
+        width: auto;
+        height: auto;
+        top: auto;
+        right: auto;
+        bottom: auto;
+        left: auto;
+    }
+
+        input[type=text]:disabled, input[type=file]::-ms-value,
+        textarea:disabled, .win-textarea:disabled, select:disabled,
+        input:disabled::-ms-check, input:disabled:active::-ms-check {
+            background-color: #fff;
+            border-color: rgba(0, 0, 0, 0.27);
+            color: #000;
+        }
+}
